@@ -23,6 +23,10 @@ Template for Cacti - Varnish Cache statistics.
 %prep
 %setup -q -n varnish-cacti-stats-%{version}
 
+%{__sed} -i -e '
+s,/usr/bin/python &lt;path_cacti&gt;/scripts/get_varnish_stats.py,%{scriptsdir}/get_varnish_stats.py,
+' templates/*.xml
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{resourcedir},%{scriptsdir}}
@@ -32,7 +36,7 @@ install -p scripts/*.py $RPM_BUILD_ROOT%{scriptsdir}
 %post
 %{_sbindir}/cacti-add_template \
 	%{resourcedir}/cacti_data_template_varnish_statistics.xml \
-	%{resourcedir}/cacti_graph_template_varnish_-_cache_hitrate.xml
+	%{resourcedir}/cacti_graph_template_varnish_-_cache_hitrate.xml \
 	%{resourcedir}/cacti_graph_template_varnish_-_number_of_requests.xml
 
 %clean
