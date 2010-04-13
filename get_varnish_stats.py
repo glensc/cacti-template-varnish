@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# vim: set encoding=utf-8:
 # $Id$
 # Author: Elan Ruusamäe <glen@delfi.ee>
 #
