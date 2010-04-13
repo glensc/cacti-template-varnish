@@ -20,7 +20,7 @@ for o, v in opts:
         host = str(v)
     if o in ("-p", "--port"):
         port = int(v)
-	
+
 telnet = telnetlib.Telnet()
 telnet.open(host, port)
 telnet.write('stats\r\n')
@@ -39,12 +39,13 @@ cache_hit            13929762       778.07 Cache hits
 cache_hitpass           52996         2.96 Cache hits for pass
 cache_miss             788513        44.04 Cache misses
 backend_conn           494618        27.63 Backend conn. success
-backend_unhealthy            0         0.00 Backend conn. not attempted
+backend_unhealthy           0         0.00 Backend conn. not attempted
 backend_busy                0         0.00 Backend conn. too many
 backend_fail                0         0.00 Backend conn. failures
 backend_reuse          351664        19.64 Backend conn. reuses
 backend_recycle        817584        45.67 Backend conn. recycles
 backend_unused              0         0.00 Backend conn. unused
+backend_toolate        868693        25.81 Backend conn. was closed
 n_srcaddr                   0          .   N struct srcaddr
 n_srcaddr_act               0          .   N active struct srcaddr
 n_sess_mem               2200          .   N struct sess_mem
@@ -75,6 +76,9 @@ s_pipe                    879         0.05 Total pipe
 s_pass                  56935         3.18 Total pass
 s_hdrbytes         5095096301    284594.55 Total header bytes
 s_bodybytes      105139468938   5872729.09 Total body bytes
+s_fetch               1669741        46.49 Total fetch
+s_req                28734002       799.12 Total Requests
+s_sess                6579080       182.90 Total Sessions
 sess_closed            211106        11.79 Session Closed
 sess_pipeline           52085         2.91 Session Pipeline
 sess_readahead          54758         3.06 Session Read Ahead
@@ -87,10 +91,18 @@ shm_cont               101165         5.65 SHM MTX contention
 shm_cycles                256         0.01 SHM cycles through buffer
 sm_nreq               1857435       103.75 allocator requests
 sm_balloc          3918831616          .   bytes allocated
+sm_bfree           5332348928          .   bytes free
+sm_nobj                 85307          .   outstanding allocations
 sma_nreq                    0         0.00 SMA allocator requests
 sma_nbytes                  0          .   SMA outstanding bytes
 sms_nreq                  344         0.02 SMS allocator requests
 sms_nbytes                  0          .   SMS outstanding bytes
+sma_balloc                  0          .   SMA bytes allocated
+sma_bfree                   0          .   SMA bytes free
+sma_nobj                    0          .   SMA outstanding allocations
+sms_balloc            4466012          .   SMS bytes allocated
+sms_bfree             4466012          .   SMS bytes freed
+sms_nobj                    0          .   SMS outstanding allocations
 backend_req            845376        47.22 Backend requests made
 n_vcl                       1         0.00 N vcl total
 n_vcl_avail                 1         0.00 N vcl available
