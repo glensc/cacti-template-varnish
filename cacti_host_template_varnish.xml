@@ -5893,7 +5893,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -5909,7 +5909,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b9cafa3eb1f650d8ab910c6c7a62df6c</data_input_field_id>
 			</hash_080019dc4913730c43ed262c96e9e2b44e4576>
@@ -5923,7 +5923,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700192cb5a422eafa7a027a8e3a5a3010f4b4</data_input_field_id>
 			</hash_08001992f1f087718b3b7dd4460448e07dc2bb>
@@ -5949,7 +5949,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -5965,7 +5965,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019aa5186f9b1a376e75fd16dd665777f8e</data_input_field_id>
 			</hash_0800198d12f6d350cd8a85c957d5c3753f9f39>
@@ -5979,7 +5979,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700197ca251af887205bb94b6b991ccd3fe0f</data_input_field_id>
 			</hash_08001918dceb8f8294baff12c2c0d0c00dad48>
@@ -5993,21 +5993,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700193952081cd2fa7c33b38787091c7370dd</data_input_field_id>
 			</hash_080019a3ba0fc6c1ae8423d1842038ba720496>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100192c141a267c93bd2e2068c760287d9d83>
@@ -6019,7 +6019,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6035,7 +6035,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019f4d0eea7a35593e456a38c97432fc33f</data_input_field_id>
 			</hash_0800194c3571790c511774e8547c3c40c602fb>
@@ -6049,7 +6049,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b20858dcf48b92a993271122ec790b21</data_input_field_id>
 			</hash_080019f3fa266d5a0df2622ce10d05f6a2b243>
@@ -6063,7 +6063,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d71967e7d15b3b6153586d6676fc36e5</data_input_field_id>
 			</hash_080019541770a0934ab949fffa8360e44c3dbc>
@@ -6077,7 +6077,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019e58847db2f69547de594a191eb13e7af</data_input_field_id>
 			</hash_080019b73bce5c8741a213b4789f42788edebb>
@@ -6091,7 +6091,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700190703dd6dcfe67d81cb5c06ef02eebb7c</data_input_field_id>
 			</hash_080019988482492a02f6f9c3b081c2541c4b56>
@@ -6105,7 +6105,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001920d3eb0d6e6fd68fff430315e2c6334a</data_input_field_id>
 			</hash_08001930c6ad6910058c253b81447c30cfffbd>
@@ -6119,7 +6119,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700194defb0ee953fa39563c7f664e673b198</data_input_field_id>
 			</hash_08001939ded93044a5f4cc161890247e963b32>
@@ -6133,7 +6133,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d01ef5decb4dbfe67c4122f32d7095f6</data_input_field_id>
 			</hash_080019ad8bf2a6aaa9a4c3a50f960efbcfe860>
@@ -6147,21 +6147,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001927ec2546c9a66f5735d4085856b7bbe2</data_input_field_id>
 			</hash_080019c755c46254477fefadbbbda290b90066>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100191dbd790cc79d11a9fa7689d1ae148c24>
@@ -6173,7 +6173,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6189,7 +6189,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700194053f4b4f207dd2ce9ab6e9f0079c8c5</data_input_field_id>
 			</hash_080019f3ac4a1e23385a129d31cfc8c0381068>
@@ -6203,7 +6203,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001935088c6efe0ab9b8b4cebb0a9e51efad</data_input_field_id>
 			</hash_08001957b5680e1f883129e6aff2b3653e3945>
@@ -6217,21 +6217,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001965ecbc4dba57cdb7503852a491bec53e</data_input_field_id>
 			</hash_0800194b79499e2ad27036628286b89a192e6f>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100192844aa853a7a5023343d402ef1bcc5f1>
@@ -6243,7 +6243,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6259,7 +6259,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019aea9e6696a7155685465b22cc42f1879</data_input_field_id>
 			</hash_0800193e502e6b22f088e0d17f955b44e35f3f>
@@ -6273,7 +6273,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019f1f0e50e2e34aad388f4dc02362e539d</data_input_field_id>
 			</hash_08001955b524ad0b9c7eb59cccca75b74ebf89>
@@ -6287,21 +6287,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019f1d027a375a8e31ebd91f55fdd0a7d92</data_input_field_id>
 			</hash_0800195885eca360490dfa7730018378cc1749>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019970845a6ca17929baf45b2be3e38e4a6>
@@ -6313,7 +6313,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6329,21 +6329,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019785a22def9748a35d203e580d4683c44</data_input_field_id>
 			</hash_08001911ba0bd012b1c78e9759ab6536594367>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019fbd678aa17bb6907f39d70f68af434e2>
@@ -6355,7 +6355,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6371,7 +6371,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001970b5a37457b5b9e4959e60b1bf037d7a</data_input_field_id>
 			</hash_080019828932a7a4fc4c03ad50bdf46a678b87>
@@ -6385,21 +6385,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ca75c3bfe1ab3632d8f7d449a6c32d4f</data_input_field_id>
 			</hash_0800191d55b7ffafdbbb1e954d9c82bee5ff9a>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019c7439b6c2065590e37cdc2b562f6ddf4>
@@ -6411,7 +6411,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6427,7 +6427,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700198c17ebf58d97e01e98669c1862957043</data_input_field_id>
 			</hash_080019348ad95767fdb220cdf475430e7aa12f>
@@ -6441,21 +6441,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001931ae5ef1eccd8ff29257388d75638582</data_input_field_id>
 			</hash_080019dea1cf968c30b4e030c26c4cee312a82>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100197ae8cb6eb212d3d4fda2b64e3117036d>
@@ -6467,7 +6467,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6483,7 +6483,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b2cbdaf1a4fc842cdddfe56cb20771b6</data_input_field_id>
 			</hash_080019d7031f4c61dbf96924fc5b8dab5a0a01>
@@ -6497,7 +6497,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700192cb5a422eafa7a027a8e3a5a3010f4b4</data_input_field_id>
 			</hash_08001948dbbfca539f674b9d69e3b6abf9f005>
@@ -6511,7 +6511,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b9cafa3eb1f650d8ab910c6c7a62df6c</data_input_field_id>
 			</hash_0800197558a8b85975c9b76a535ef4cb17aeb8>
@@ -6525,7 +6525,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d4c079dd9f736dbc95d28c73baf2c88a</data_input_field_id>
 			</hash_0800196d998a9428845adbbad6bcc3e415920e>
@@ -6539,7 +6539,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ec075cf0f91982e0be5f7544b9c70155</data_input_field_id>
 			</hash_080019691ece1444532fefceea040448856dd0>
@@ -6553,7 +6553,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d8fe31f3cce82758a6dce20536d14529</data_input_field_id>
 			</hash_0800190e8a115ed783a05e3369821cbf3adfa8>
@@ -6567,7 +6567,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700193c84c9b8d12b2ce63b9f87102525eabe</data_input_field_id>
 			</hash_080019855f4df163ca703a058c6dfb9bce55ee>
@@ -6581,7 +6581,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d41b68b7b1392fedeb51a031522cf509</data_input_field_id>
 			</hash_0800195ead7ebae778f50b3968bf81e3ebe91e>
@@ -6595,21 +6595,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b0ac3696c352b62ba8a5aceef21663b0</data_input_field_id>
 			</hash_08001906a92db0eba9cec75f62acb363e5e3d9>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100193463fb16cd838c7db93cd4f67bfa35d0>
@@ -6621,7 +6621,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6637,7 +6637,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ddf97acc6421347b6a7f200d73cbbade</data_input_field_id>
 			</hash_0800196231babf0c90c58795b0752048b568aa>
@@ -6651,21 +6651,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001935088c6efe0ab9b8b4cebb0a9e51efad</data_input_field_id>
 			</hash_0800193591c2b0517ef2231704422750b8fb16>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019b815a84d9f3a494ac4ebd2e9ef733b40>
@@ -6677,7 +6677,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6693,7 +6693,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700192cb5a422eafa7a027a8e3a5a3010f4b4</data_input_field_id>
 			</hash_0800198cca0e2fb6d71c01965a6129a8d0e99b>
@@ -6707,7 +6707,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b9cafa3eb1f650d8ab910c6c7a62df6c</data_input_field_id>
 			</hash_080019438e7ed920b3cc849e778526c29c04b5>
@@ -6721,7 +6721,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ec075cf0f91982e0be5f7544b9c70155</data_input_field_id>
 			</hash_0800194da29377907cfda221d8e296b70a4b83>
@@ -6735,21 +6735,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d4c079dd9f736dbc95d28c73baf2c88a</data_input_field_id>
 			</hash_080019d0887aa553e91ff39e04fc83dad17543>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_01001957348350f63cd4d1ace70df6421526a5>
@@ -6761,7 +6761,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6777,7 +6777,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d8fe31f3cce82758a6dce20536d14529</data_input_field_id>
 			</hash_0800195dc33ec41e0354dbf7b68e19722f52bd>
@@ -6791,7 +6791,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700193c84c9b8d12b2ce63b9f87102525eabe</data_input_field_id>
 			</hash_080019d48b52709ae39398c55a8970f2cc3bc9>
@@ -6805,7 +6805,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001997ec976bf376c110389e1bb982371347</data_input_field_id>
 			</hash_080019c56390124ba5f5a4c06b2f496b2067d7>
@@ -6819,7 +6819,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019e35f8739e09f276e58159d877e1c9b20</data_input_field_id>
 			</hash_0800194c70e3facc0019ef1a80d72be2a44a9e>
@@ -6833,7 +6833,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019a4e3febf499040723baceed08c3bc2dc</data_input_field_id>
 			</hash_080019d3de7e85f2351713fa90074f5535e1ff>
@@ -6847,7 +6847,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019cac75dbf059c367e7b00e4b87f5793e0</data_input_field_id>
 			</hash_080019dbfeb3536d146feaf5fa4591efae17a5>
@@ -6861,7 +6861,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001957ca2bdd5f0192129ee198961adb2cb5</data_input_field_id>
 			</hash_080019a144bbf7dd5fc5d5f0a5add14e4d1f74>
@@ -6875,21 +6875,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019e25d07911dc5ef799901b59a6a0cb707</data_input_field_id>
 			</hash_0800196a97553dc70ba0bd31ef9026bcc02b35>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
-				<t_value>on</t_value>
-				<value>6082</value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
+				<t_value>on</t_value>
+				<value>6082</value>
 			</item_001>
 		</data>
 	</hash_0100194953de12ec4319751cc9cb55aa0db5cf>
@@ -6901,7 +6901,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -6917,7 +6917,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019cc2529a28f0adfdff7e69570425a044d</data_input_field_id>
 			</hash_0800199d6c29ed4b29f9250b85c867acc18085>
@@ -6931,7 +6931,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700192e6d619ee4db1126ba5bf09d45656f71</data_input_field_id>
 			</hash_080019535dfdb634cca91669e5499c3ad422a3>
@@ -6945,7 +6945,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019c2011a37d40518a6e4e30a9f224e72cf</data_input_field_id>
 			</hash_080019925facab200d1d609f4c0e7c91343687>
@@ -6959,7 +6959,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ca68f6519a4cf280871476b6838d9857</data_input_field_id>
 			</hash_0800193490b4ecb562afee315b30ae2817a2ab>
@@ -6973,7 +6973,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019e681ae6f8c1202b553af57fca562e332</data_input_field_id>
 			</hash_08001914e398be0e9f3339a6175d7ae51426cf>
@@ -6987,21 +6987,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001924e1cc445794627c71e00338246e0b46</data_input_field_id>
 			</hash_080019c9b0a9681dd1673d4f306e8dfd1a9c5e>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019b0f2e3b74840790b5eed22185cc01ac9>
@@ -7013,7 +7013,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7029,21 +7029,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019b272e66c93efd7867315277054e4e73c</data_input_field_id>
 			</hash_0800193cd29b61287d51be0645c199d5979421>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019d43490e2b721cc181f5c874de8c115b6>
@@ -7055,7 +7055,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7071,7 +7071,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001923380ab31e069721fde5574837395243</data_input_field_id>
 			</hash_0800199e986b3b81b36602fbe1a2f0c3d4ea24>
@@ -7085,7 +7085,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700190bf1cef1714afc056d44467830646f17</data_input_field_id>
 			</hash_080019b857e809cb8e1caa5906d185ce53cdce>
@@ -7099,21 +7099,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019491df7a0468e5c673aecfce4e8a17a31</data_input_field_id>
 			</hash_08001960a7f40b8ce14bc55bd7ff55d2773e34>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019d1d0fc2201c0eca813d3da6e97d43b3b>
@@ -7125,7 +7125,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7141,7 +7141,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700198a09843e80ceb26a33133720bd67498a</data_input_field_id>
 			</hash_080019fa34eec9aa1437ccdc28022e8acf57ca>
@@ -7155,21 +7155,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001921129ed9985404481ef07d9c50ffbea3</data_input_field_id>
 			</hash_0800198f819477756a332a5671e8ee3ca691a4>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100193c6752fb727ad46825e94de5f081b548>
@@ -7181,7 +7181,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7197,7 +7197,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019de1c86940b7e71931b1899ba49e8bd4e</data_input_field_id>
 			</hash_08001955cc9810a63928cc9057d62942c077c4>
@@ -7211,7 +7211,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700197cd8e8175d96e531344bb894954fecfb</data_input_field_id>
 			</hash_08001998462a3149fd5c92fc8ffe0036edc63a>
@@ -7225,21 +7225,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700193c3d880c1f700399c3db02280e798b22</data_input_field_id>
 			</hash_08001984c7e12989a60d1507ec53b926a73a20>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019636e1b81523d5cd34929cf698ed17c5e>
@@ -7251,7 +7251,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7267,7 +7267,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001970b5a37457b5b9e4959e60b1bf037d7a</data_input_field_id>
 			</hash_08001995e56bf156dd43e59006231cbc4fe090>
@@ -7281,21 +7281,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ca75c3bfe1ab3632d8f7d449a6c32d4f</data_input_field_id>
 			</hash_080019ec5a00132477a90244a7badb6144b1a7>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100195a55cbfef7689c33f21d18ccc6842ddf>
@@ -7307,7 +7307,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7323,7 +7323,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700196a8530932cc65905a46bab9595027d6a</data_input_field_id>
 			</hash_080019d963985a607c80ece37a7ea9a5a2486f>
@@ -7337,21 +7337,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019aaa5f746d95b3a42103cf7edd8608852</data_input_field_id>
 			</hash_080019390e88009ca7f1b24f4ccfe0c68fae3c>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019f8336d07cbbd59071ed06941ccd41964>
@@ -7363,7 +7363,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7379,7 +7379,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019d05fa3665d21fe0879b9ad31b81af4f9</data_input_field_id>
 			</hash_080019afd810d2ae77dca0adeffdce17f82135>
@@ -7393,21 +7393,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001917ca41afe6ecec3620e9ccb776daf924</data_input_field_id>
 			</hash_08001938084ef5baf7071bcf3f4d434a96027b>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019373c3c0d37736429baf5596a955a15c6>
@@ -7419,7 +7419,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7435,7 +7435,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700194021c31edcdd98207e9bc64f800f6472</data_input_field_id>
 			</hash_080019ef438384e5d0a16c37c835722480c54a>
@@ -7449,7 +7449,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700191734e0fefd9f5f35c8b430eb5a0e2a46</data_input_field_id>
 			</hash_080019c950149c45714f613d42ebab8dd1fb4f>
@@ -7463,7 +7463,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019185b29cdce7e3e4fefd659ae92833841</data_input_field_id>
 			</hash_08001981bcfca88bc4990b642717f23fdf0bed>
@@ -7477,21 +7477,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ea3a78659bb0c16e0a5b8181568ee969</data_input_field_id>
 			</hash_0800197abd9496bbe1ce7a70ca0c7a6146ceaa>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_01001944a59a621f6b404e75d4207aab34b264>
@@ -7503,7 +7503,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7519,21 +7519,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700199c0d8aa161e3b1148daa909a442b673a</data_input_field_id>
 			</hash_08001909245b1262803ae2355d5fe716d033d8>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019ad9fa9f9b39c8db1461da31f2925f56e>
@@ -7545,7 +7545,7 @@
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
-			<rrd_step>30</rrd_step>
+			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
 			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
@@ -7561,7 +7561,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019636aa633dbfb55cd1b9b02128bee36d0</data_input_field_id>
 			</hash_080019a87cb11494afdb38db2281469b574239>
@@ -7575,7 +7575,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700191c0bcb58798ba754a87b83e21a82725a</data_input_field_id>
 			</hash_080019e1cbc11a9630f4dbca60dc03aa6b2942>
@@ -7589,7 +7589,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019c2d113e4b95ad85cd8e8286dcbd078b4</data_input_field_id>
 			</hash_0800191ad7da523d43e26dd0ea34f89ed894f2>
@@ -7603,7 +7603,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019ad04dd4cae8e9bfd85da31aabe2569e4</data_input_field_id>
 			</hash_0800194f9e9f7bb0f95f76b4dff921ff383ada>
@@ -7617,7 +7617,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_07001917e11b40c8e9f43b51f269310b70952a</data_input_field_id>
 			</hash_08001970e1d048abf4158628a628e2e2544085>
@@ -7631,7 +7631,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019bbad6a4dfc4d40d4eabba11a0ba76df8</data_input_field_id>
 			</hash_080019621c79f9d154aaeae3815d61d8f997be>
@@ -7645,7 +7645,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700198982d7bf878158e1fa19e5baa83bb1d9</data_input_field_id>
 			</hash_080019dae48540febff0fd9364a303ae8ee36e>
@@ -7659,7 +7659,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019a8dd56f86b442998dae0622ca31ec6ea</data_input_field_id>
 			</hash_0800199b692bc906a69924e3cb946c725b1ecb>
@@ -7673,7 +7673,7 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019786d0113ca27d4f0c79ea602493a1432</data_input_field_id>
 			</hash_08001935e79ec33c90aa4e361586e09ac9b1a3>
@@ -7687,21 +7687,21 @@
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>3</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>60</rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070019e46ca50c590bf104d8407977be17da98</data_input_field_id>
 			</hash_080019879a86b95f640645efad7b30e5c93ce6>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019e5411d723d20ca56ee7593e8627cad63>
@@ -7711,7 +7711,7 @@
 		<input_string>/usr/bin/python &lt;path_cacti&gt;/scripts/get_varnish_stats.py -h &lt;varnish_hostname&gt; -p &lt;varnish_port&gt;</input_string>
 		<fields>
 			<hash_0700195dbef4f79dd9c425a6683d5cae42400e>
-				<name>sms_balloc</name>
+				<name>SMS bytes allocated</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7720,7 +7720,7 @@
 				<data_name>sms_balloc</data_name>
 			</hash_0700195dbef4f79dd9c425a6683d5cae42400e>
 			<hash_070019aa5186f9b1a376e75fd16dd665777f8e>
-				<name>sms_nbytes</name>
+				<name>SMS outstanding bytes</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7729,7 +7729,7 @@
 				<data_name>sms_nbytes</data_name>
 			</hash_070019aa5186f9b1a376e75fd16dd665777f8e>
 			<hash_070019babbe54c117120b6ad1d7de355017414>
-				<name>sms_nobj</name>
+				<name>SMS outstanding allocations</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7738,7 +7738,7 @@
 				<data_name>sms_nobj</data_name>
 			</hash_070019babbe54c117120b6ad1d7de355017414>
 			<hash_0700197cd8e8175d96e531344bb894954fecfb>
-				<name>sms_nreq</name>
+				<name>SMS allocator requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7747,7 +7747,7 @@
 				<data_name>sms_nreq</data_name>
 			</hash_0700197cd8e8175d96e531344bb894954fecfb>
 			<hash_070019f1e43a0daf6dbc52c7927c9013946caa>
-				<name>sma_bfree</name>
+				<name>SMA bytes free</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7756,7 +7756,7 @@
 				<data_name>sma_bfree</data_name>
 			</hash_070019f1e43a0daf6dbc52c7927c9013946caa>
 			<hash_0700194ba4d58b6a927be8c55a0e222621cec8>
-				<name>sma_balloc</name>
+				<name>SMA bytes allocated</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7765,7 +7765,7 @@
 				<data_name>sma_balloc</data_name>
 			</hash_0700194ba4d58b6a927be8c55a0e222621cec8>
 			<hash_0700197ca251af887205bb94b6b991ccd3fe0f>
-				<name>sma_nbytes</name>
+				<name>SMA outstanding bytes</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7774,7 +7774,7 @@
 				<data_name>sma_nbytes</data_name>
 			</hash_0700197ca251af887205bb94b6b991ccd3fe0f>
 			<hash_070019b6c49dbbf06801ce3e8d12ae7f464d49>
-				<name>sma_nobj</name>
+				<name>SMA outstanding allocations</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7783,7 +7783,7 @@
 				<data_name>sma_nobj</data_name>
 			</hash_070019b6c49dbbf06801ce3e8d12ae7f464d49>
 			<hash_0700193c3d880c1f700399c3db02280e798b22>
-				<name>sma_nreq</name>
+				<name>SMA allocator requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7792,7 +7792,7 @@
 				<data_name>sma_nreq</data_name>
 			</hash_0700193c3d880c1f700399c3db02280e798b22>
 			<hash_070019d6bc11d1e0511e7f28dd42259103059a>
-				<name>sm_bfree</name>
+				<name>bytes free</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7801,7 +7801,7 @@
 				<data_name>sm_bfree</data_name>
 			</hash_070019d6bc11d1e0511e7f28dd42259103059a>
 			<hash_0700193952081cd2fa7c33b38787091c7370dd>
-				<name>sm_balloc</name>
+				<name>bytes allocated</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7810,7 +7810,7 @@
 				<data_name>sm_balloc</data_name>
 			</hash_0700193952081cd2fa7c33b38787091c7370dd>
 			<hash_0700196c502c22067cde4bed68d30e5e9dff4c>
-				<name>sm_nobj</name>
+				<name>outstanding allocations</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7819,7 +7819,7 @@
 				<data_name>sm_nobj</data_name>
 			</hash_0700196c502c22067cde4bed68d30e5e9dff4c>
 			<hash_070019de1c86940b7e71931b1899ba49e8bd4e>
-				<name>sm_nreq</name>
+				<name>allocator requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7828,7 +7828,7 @@
 				<data_name>sm_nreq</data_name>
 			</hash_070019de1c86940b7e71931b1899ba49e8bd4e>
 			<hash_0700190bf1cef1714afc056d44467830646f17>
-				<name>shm_cycles</name>
+				<name>SHM cycles through buffer</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7837,7 +7837,7 @@
 				<data_name>shm_cycles</data_name>
 			</hash_0700190bf1cef1714afc056d44467830646f17>
 			<hash_070019491df7a0468e5c673aecfce4e8a17a31>
-				<name>shm_cont</name>
+				<name>SHM MTX contention</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7846,7 +7846,7 @@
 				<data_name>shm_cont</data_name>
 			</hash_070019491df7a0468e5c673aecfce4e8a17a31>
 			<hash_07001923380ab31e069721fde5574837395243>
-				<name>shm_flushes</name>
+				<name>SHM flushes due to overflow</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7855,7 +7855,7 @@
 				<data_name>shm_flushes</data_name>
 			</hash_07001923380ab31e069721fde5574837395243>
 			<hash_07001921129ed9985404481ef07d9c50ffbea3>
-				<name>shm_writes</name>
+				<name>SHM writes</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7864,7 +7864,7 @@
 				<data_name>shm_writes</data_name>
 			</hash_07001921129ed9985404481ef07d9c50ffbea3>
 			<hash_0700198a09843e80ceb26a33133720bd67498a>
-				<name>shm_records</name>
+				<name>SHM records</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7873,7 +7873,7 @@
 				<data_name>shm_records</data_name>
 			</hash_0700198a09843e80ceb26a33133720bd67498a>
 			<hash_0700199c0d8aa161e3b1148daa909a442b673a>
-				<name>sess_herd</name>
+				<name>Session herd</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7882,7 +7882,7 @@
 				<data_name>sess_herd</data_name>
 			</hash_0700199c0d8aa161e3b1148daa909a442b673a>
 			<hash_0700191734e0fefd9f5f35c8b430eb5a0e2a46>
-				<name>sess_linger</name>
+				<name>Session Linger</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7891,7 +7891,7 @@
 				<data_name>sess_linger</data_name>
 			</hash_0700191734e0fefd9f5f35c8b430eb5a0e2a46>
 			<hash_070019185b29cdce7e3e4fefd659ae92833841>
-				<name>sess_readahead</name>
+				<name>Session Read Ahead</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7900,7 +7900,7 @@
 				<data_name>sess_readahead</data_name>
 			</hash_070019185b29cdce7e3e4fefd659ae92833841>
 			<hash_070019ea3a78659bb0c16e0a5b8181568ee969>
-				<name>sess_pipeline</name>
+				<name>Session Pipeline</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7909,7 +7909,7 @@
 				<data_name>sess_pipeline</data_name>
 			</hash_070019ea3a78659bb0c16e0a5b8181568ee969>
 			<hash_0700194021c31edcdd98207e9bc64f800f6472>
-				<name>sess_closed</name>
+				<name>Session Closed</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7918,7 +7918,7 @@
 				<data_name>sess_closed</data_name>
 			</hash_0700194021c31edcdd98207e9bc64f800f6472>
 			<hash_070019d05fa3665d21fe0879b9ad31b81af4f9>
-				<name>esi_parse</name>
+				<name>Objects ESI parsed (unlock)</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7927,7 +7927,7 @@
 				<data_name>esi_parse</data_name>
 			</hash_070019d05fa3665d21fe0879b9ad31b81af4f9>
 			<hash_070019e25d07911dc5ef799901b59a6a0cb707>
-				<name>backend_req</name>
+				<name>Backend requests made</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7936,7 +7936,7 @@
 				<data_name>backend_req</data_name>
 			</hash_070019e25d07911dc5ef799901b59a6a0cb707>
 			<hash_0700197ae0a43cc8835c1a6b09c814114b04c5>
-				<name>s_fetch</name>
+				<name>Total fetch</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7945,7 +7945,7 @@
 				<data_name>s_fetch</data_name>
 			</hash_0700197ae0a43cc8835c1a6b09c814114b04c5>
 			<hash_070019b0ac3696c352b62ba8a5aceef21663b0>
-				<name>s_pass</name>
+				<name>Total pass</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7954,7 +7954,7 @@
 				<data_name>s_pass</data_name>
 			</hash_070019b0ac3696c352b62ba8a5aceef21663b0>
 			<hash_070019d41b68b7b1392fedeb51a031522cf509>
-				<name>s_pipe</name>
+				<name>Total pipe</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7963,7 +7963,7 @@
 				<data_name>s_pipe</data_name>
 			</hash_070019d41b68b7b1392fedeb51a031522cf509>
 			<hash_070019687014423bd9a1aaf3e88da87cc1481f>
-				<name>s_req</name>
+				<name>Total Requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7972,7 +7972,7 @@
 				<data_name>s_req</data_name>
 			</hash_070019687014423bd9a1aaf3e88da87cc1481f>
 			<hash_07001954423fef1f7db8a6b8428c03c2ec218c>
-				<name>s_sess</name>
+				<name>Total Sessions</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7981,7 +7981,7 @@
 				<data_name>s_sess</data_name>
 			</hash_07001954423fef1f7db8a6b8428c03c2ec218c>
 			<hash_070019785a22def9748a35d203e580d4683c44>
-				<name>n_objoverflow</name>
+				<name>Objects overflowing workspace</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7990,7 +7990,7 @@
 				<data_name>n_objoverflow</data_name>
 			</hash_070019785a22def9748a35d203e580d4683c44>
 			<hash_070019aaa5f746d95b3a42103cf7edd8608852>
-				<name>n_objwrite</name>
+				<name>Objects sent with write</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -7999,7 +7999,7 @@
 				<data_name>n_objwrite</data_name>
 			</hash_070019aaa5f746d95b3a42103cf7edd8608852>
 			<hash_0700196a8530932cc65905a46bab9595027d6a>
-				<name>n_objsendfile</name>
+				<name>Objects sent with sendfile</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8008,7 +8008,7 @@
 				<data_name>n_objsendfile</data_name>
 			</hash_0700196a8530932cc65905a46bab9595027d6a>
 			<hash_070019f306f5a24751c3977b99816fd882b422>
-				<name>losthdr</name>
+				<name>HTTP header overflows</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8017,7 +8017,7 @@
 				<data_name>losthdr</data_name>
 			</hash_070019f306f5a24751c3977b99816fd882b422>
 			<hash_070019cfd527ef68350894e88341428fdce801>
-				<name>n_deathrow</name>
+				<name>N objects on deathrow</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8026,7 +8026,7 @@
 				<data_name>n_deathrow</data_name>
 			</hash_070019cfd527ef68350894e88341428fdce801>
 			<hash_07001965ecbc4dba57cdb7503852a491bec53e>
-				<name>n_lru_moved</name>
+				<name>N LRU moved objects</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8044,7 +8044,7 @@
 				<data_name>n_lru_saved</data_name>
 			</hash_0700194053f4b4f207dd2ce9ab6e9f0079c8c5>
 			<hash_07001935088c6efe0ab9b8b4cebb0a9e51efad>
-				<name>n_lru_nuked</name>
+				<name>N LRU nuked objects</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8053,7 +8053,7 @@
 				<data_name>n_lru_nuked</data_name>
 			</hash_07001935088c6efe0ab9b8b4cebb0a9e51efad>
 			<hash_070019ddf97acc6421347b6a7f200d73cbbade>
-				<name>n_expired</name>
+				<name>N expired objects</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8062,7 +8062,7 @@
 				<data_name>n_expired</data_name>
 			</hash_070019ddf97acc6421347b6a7f200d73cbbade>
 			<hash_070019636aa633dbfb55cd1b9b02128bee36d0>
-				<name>n_backend</name>
+				<name>N backends</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8071,7 +8071,7 @@
 				<data_name>n_backend</data_name>
 			</hash_070019636aa633dbfb55cd1b9b02128bee36d0>
 			<hash_0700192e6d619ee4db1126ba5bf09d45656f71>
-				<name>n_wrk_drop</name>
+				<name>N dropped work requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8080,7 +8080,7 @@
 				<data_name>n_wrk_drop</data_name>
 			</hash_0700192e6d619ee4db1126ba5bf09d45656f71>
 			<hash_070019c2011a37d40518a6e4e30a9f224e72cf>
-				<name>n_wrk_overflow</name>
+				<name>N overflowed work requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8089,7 +8089,7 @@
 				<data_name>n_wrk_overflow</data_name>
 			</hash_070019c2011a37d40518a6e4e30a9f224e72cf>
 			<hash_070019e934291481e56d76c830d8a42beb2483>
-				<name>n_wrk_queue</name>
+				<name>N queued work requests</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8098,7 +8098,7 @@
 				<data_name>n_wrk_queue</data_name>
 			</hash_070019e934291481e56d76c830d8a42beb2483>
 			<hash_070019ca68f6519a4cf280871476b6838d9857>
-				<name>n_wrk_max</name>
+				<name>N worker threads limited</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8107,7 +8107,7 @@
 				<data_name>n_wrk_max</data_name>
 			</hash_070019ca68f6519a4cf280871476b6838d9857>
 			<hash_070019e681ae6f8c1202b553af57fca562e332>
-				<name>n_wrk_failed</name>
+				<name>N worker threads not created</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8116,7 +8116,7 @@
 				<data_name>n_wrk_failed</data_name>
 			</hash_070019e681ae6f8c1202b553af57fca562e332>
 			<hash_07001924e1cc445794627c71e00338246e0b46>
-				<name>n_wrk_create</name>
+				<name>N worker threads created</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8125,7 +8125,7 @@
 				<data_name>n_wrk_create</data_name>
 			</hash_07001924e1cc445794627c71e00338246e0b46>
 			<hash_070019cc2529a28f0adfdff7e69570425a044d>
-				<name>n_wrk</name>
+				<name>N worker threads</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8134,7 +8134,7 @@
 				<data_name>n_wrk</data_name>
 			</hash_070019cc2529a28f0adfdff7e69570425a044d>
 			<hash_070019d71967e7d15b3b6153586d6676fc36e5>
-				<name>n_bereq</name>
+				<name>N struct bereq</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8143,7 +8143,7 @@
 				<data_name>n_bereq</data_name>
 			</hash_070019d71967e7d15b3b6153586d6676fc36e5>
 			<hash_070019f4d0eea7a35593e456a38c97432fc33f>
-				<name>n_vbe_conn</name>
+				<name>N struct vbe_conn</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8152,7 +8152,7 @@
 				<data_name>n_vbe_conn</data_name>
 			</hash_070019f4d0eea7a35593e456a38c97432fc33f>
 			<hash_070019e58847db2f69547de594a191eb13e7af>
-				<name>n_smf_large</name>
+				<name>N large free smf</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8161,7 +8161,7 @@
 				<data_name>n_smf_large</data_name>
 			</hash_070019e58847db2f69547de594a191eb13e7af>
 			<hash_0700190703dd6dcfe67d81cb5c06ef02eebb7c>
-				<name>n_smf_frag</name>
+				<name>N small free smf</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8170,7 +8170,7 @@
 				<data_name>n_smf_frag</data_name>
 			</hash_0700190703dd6dcfe67d81cb5c06ef02eebb7c>
 			<hash_07001920d3eb0d6e6fd68fff430315e2c6334a>
-				<name>n_smf</name>
+				<name>N struct smf</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8179,7 +8179,7 @@
 				<data_name>n_smf</data_name>
 			</hash_07001920d3eb0d6e6fd68fff430315e2c6334a>
 			<hash_070019ca75c3bfe1ab3632d8f7d449a6c32d4f>
-				<name>n_objecthead</name>
+				<name>N struct objecthead</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8188,7 +8188,7 @@
 				<data_name>n_objecthead</data_name>
 			</hash_070019ca75c3bfe1ab3632d8f7d449a6c32d4f>
 			<hash_07001970b5a37457b5b9e4959e60b1bf037d7a>
-				<name>n_object</name>
+				<name>N struct object</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8197,7 +8197,7 @@
 				<data_name>n_object</data_name>
 			</hash_07001970b5a37457b5b9e4959e60b1bf037d7a>
 			<hash_0700194defb0ee953fa39563c7f664e673b198>
-				<name>n_sess</name>
+				<name>N struct sess</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8206,7 +8206,7 @@
 				<data_name>n_sess</data_name>
 			</hash_0700194defb0ee953fa39563c7f664e673b198>
 			<hash_070019d01ef5decb4dbfe67c4122f32d7095f6>
-				<name>n_sess_mem</name>
+				<name>N struct sess_mem</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8215,7 +8215,7 @@
 				<data_name>n_sess_mem</data_name>
 			</hash_070019d01ef5decb4dbfe67c4122f32d7095f6>
 			<hash_07001927ec2546c9a66f5735d4085856b7bbe2>
-				<name>n_srcaddr_act</name>
+				<name>N active struct srcaddr</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8224,7 +8224,7 @@
 				<data_name>n_srcaddr_act</data_name>
 			</hash_07001927ec2546c9a66f5735d4085856b7bbe2>
 			<hash_070019b20858dcf48b92a993271122ec790b21>
-				<name>n_srcaddr</name>
+				<name>N struct srcaddr</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8233,7 +8233,7 @@
 				<data_name>n_srcaddr</data_name>
 			</hash_070019b20858dcf48b92a993271122ec790b21>
 			<hash_070019eb3e2a701e5c25cbac3af629166c25fe>
-				<name>fetch_failed</name>
+				<name>Fetch failed</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8242,7 +8242,7 @@
 				<data_name>fetch_failed</data_name>
 			</hash_070019eb3e2a701e5c25cbac3af629166c25fe>
 			<hash_0700197427e853a882105eb909d9018e302e3a>
-				<name>fetch_zero</name>
+				<name>Fetch zero len</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8251,7 +8251,7 @@
 				<data_name>fetch_zero</data_name>
 			</hash_0700197427e853a882105eb909d9018e302e3a>
 			<hash_07001997fedc083f462141f9563147ff618861>
-				<name>fetch_oldhttp</name>
+				<name>Fetch pre HTTP/1.1 closed</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8260,7 +8260,7 @@
 				<data_name>fetch_oldhttp</data_name>
 			</hash_07001997fedc083f462141f9563147ff618861>
 			<hash_07001974fa67febfe654b2b831213c9711ef2d>
-				<name>fetch_close</name>
+				<name>Fetch wanted close</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8269,7 +8269,7 @@
 				<data_name>fetch_close</data_name>
 			</hash_07001974fa67febfe654b2b831213c9711ef2d>
 			<hash_070019358094d7099df9b163ad94ae10240cc0>
-				<name>fetch_bad</name>
+				<name>Fetch had bad headers</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8278,7 +8278,7 @@
 				<data_name>fetch_bad</data_name>
 			</hash_070019358094d7099df9b163ad94ae10240cc0>
 			<hash_070019cbaec729755ade9bc7849d70ba5de7c2>
-				<name>fetch_eof</name>
+				<name>Fetch EOF</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8296,7 +8296,7 @@
 				<data_name>fetch_chunked</data_name>
 			</hash_070019d32ed882583509da53c373b14f0fb034>
 			<hash_07001907e892efdf9391511f7cdcd412843222>
-				<name>fetch_length</name>
+				<name>Fetch with Length</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8305,7 +8305,7 @@
 				<data_name>fetch_length</data_name>
 			</hash_07001907e892efdf9391511f7cdcd412843222>
 			<hash_0700195fad791b19b9aab565ae88eb8e82ac05>
-				<name>fetch_head</name>
+				<name>Fetch head</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8314,7 +8314,7 @@
 				<data_name>fetch_head</data_name>
 			</hash_0700195fad791b19b9aab565ae88eb8e82ac05>
 			<hash_07001957ca2bdd5f0192129ee198961adb2cb5>
-				<name>backend_unused</name>
+				<name>Backend conn. unused</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8323,7 +8323,7 @@
 				<data_name>backend_unused</data_name>
 			</hash_07001957ca2bdd5f0192129ee198961adb2cb5>
 			<hash_070019cac75dbf059c367e7b00e4b87f5793e0>
-				<name>backend_recycle</name>
+				<name>Backend conn. recycles</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8332,7 +8332,7 @@
 				<data_name>backend_recycle</data_name>
 			</hash_070019cac75dbf059c367e7b00e4b87f5793e0>
 			<hash_07001978762e6b587ea0f256ac77ec319bef8a>
-				<name>backend_toolate</name>
+				<name>Backend conn. was closed</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8341,7 +8341,7 @@
 				<data_name>backend_toolate</data_name>
 			</hash_07001978762e6b587ea0f256ac77ec319bef8a>
 			<hash_070019a4e3febf499040723baceed08c3bc2dc>
-				<name>backend_reuse</name>
+				<name>Backend conn. reuses</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8350,7 +8350,7 @@
 				<data_name>backend_reuse</data_name>
 			</hash_070019a4e3febf499040723baceed08c3bc2dc>
 			<hash_070019e35f8739e09f276e58159d877e1c9b20>
-				<name>backend_fail</name>
+				<name>Backend conn. failures</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8359,7 +8359,7 @@
 				<data_name>backend_fail</data_name>
 			</hash_070019e35f8739e09f276e58159d877e1c9b20>
 			<hash_07001997ec976bf376c110389e1bb982371347>
-				<name>backend_busy</name>
+				<name>Backend conn. too many</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8368,7 +8368,7 @@
 				<data_name>backend_busy</data_name>
 			</hash_07001997ec976bf376c110389e1bb982371347>
 			<hash_0700193c84c9b8d12b2ce63b9f87102525eabe>
-				<name>backend_unhealthy</name>
+				<name>Backend conn. not attempted</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8377,7 +8377,7 @@
 				<data_name>backend_unhealthy</data_name>
 			</hash_0700193c84c9b8d12b2ce63b9f87102525eabe>
 			<hash_070019d8fe31f3cce82758a6dce20536d14529>
-				<name>backend_conn</name>
+				<name>Backend conn. success</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8386,7 +8386,7 @@
 				<data_name>backend_conn</data_name>
 			</hash_070019d8fe31f3cce82758a6dce20536d14529>
 			<hash_070019ec075cf0f91982e0be5f7544b9c70155>
-				<name>cache_miss</name>
+				<name>Cache misses</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8395,7 +8395,7 @@
 				<data_name>cache_miss</data_name>
 			</hash_070019ec075cf0f91982e0be5f7544b9c70155>
 			<hash_070019d4c079dd9f736dbc95d28c73baf2c88a>
-				<name>cache_hitpass</name>
+				<name>Cache hits for pass</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8404,7 +8404,7 @@
 				<data_name>cache_hitpass</data_name>
 			</hash_070019d4c079dd9f736dbc95d28c73baf2c88a>
 			<hash_070019b9cafa3eb1f650d8ab910c6c7a62df6c>
-				<name>cache_hit</name>
+				<name>Cache hits</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8413,7 +8413,7 @@
 				<data_name>cache_hit</data_name>
 			</hash_070019b9cafa3eb1f650d8ab910c6c7a62df6c>
 			<hash_0700192cb5a422eafa7a027a8e3a5a3010f4b4>
-				<name>client_req</name>
+				<name>Client requests received</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8422,7 +8422,7 @@
 				<data_name>client_req</data_name>
 			</hash_0700192cb5a422eafa7a027a8e3a5a3010f4b4>
 			<hash_070019e11e431682fac87ec8fc5f0c40f63139>
-				<name>client_drop</name>
+				<name>Connection dropped, no sess</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8431,7 +8431,7 @@
 				<data_name>client_drop</data_name>
 			</hash_070019e11e431682fac87ec8fc5f0c40f63139>
 			<hash_070019b2cbdaf1a4fc842cdddfe56cb20771b6>
-				<name>client_conn</name>
+				<name>Client connections accepted</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8440,7 +8440,7 @@
 				<data_name>client_conn</data_name>
 			</hash_070019b2cbdaf1a4fc842cdddfe56cb20771b6>
 			<hash_070019b272e66c93efd7867315277054e4e73c>
-				<name>uptime</name>
+				<name>Child uptime</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8449,7 +8449,7 @@
 				<data_name>uptime</data_name>
 			</hash_070019b272e66c93efd7867315277054e4e73c>
 			<hash_070019632b950fa8c662c660f8282ef7c96473>
-				<name>sms_bfree</name>
+				<name>SMS bytes freed</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8458,7 +8458,7 @@
 				<data_name>sms_bfree</data_name>
 			</hash_070019632b950fa8c662c660f8282ef7c96473>
 			<hash_070019aea9e6696a7155685465b22cc42f1879>
-				<name>hcb_nolock</name>
+				<name>HCB Lookups without lock</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8467,7 +8467,7 @@
 				<data_name>hcb_nolock</data_name>
 			</hash_070019aea9e6696a7155685465b22cc42f1879>
 			<hash_070019f1d027a375a8e31ebd91f55fdd0a7d92>
-				<name>hcb_lock</name>
+				<name>HCB Lookups with lock</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8476,7 +8476,7 @@
 				<data_name>hcb_lock</data_name>
 			</hash_070019f1d027a375a8e31ebd91f55fdd0a7d92>
 			<hash_070019f1f0e50e2e34aad388f4dc02362e539d>
-				<name>hcb_insert</name>
+				<name>HCB Inserts</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8485,7 +8485,7 @@
 				<data_name>hcb_insert</data_name>
 			</hash_070019f1f0e50e2e34aad388f4dc02362e539d>
 			<hash_0700198c17ebf58d97e01e98669c1862957043>
-				<name>s_hdrbytes</name>
+				<name>Total header bytes</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8494,7 +8494,7 @@
 				<data_name>s_hdrbytes</data_name>
 			</hash_0700198c17ebf58d97e01e98669c1862957043>
 			<hash_07001931ae5ef1eccd8ff29257388d75638582>
-				<name>s_bodybytes</name>
+				<name>Total body bytes</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8503,7 +8503,7 @@
 				<data_name>s_bodybytes</data_name>
 			</hash_07001931ae5ef1eccd8ff29257388d75638582>
 			<hash_07001917ca41afe6ecec3620e9ccb776daf924>
-				<name>esi_errors</name>
+				<name>ESI parse errors (unlock)</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8512,7 +8512,7 @@
 				<data_name>esi_errors</data_name>
 			</hash_07001917ca41afe6ecec3620e9ccb776daf924>
 			<hash_0700191c0bcb58798ba754a87b83e21a82725a>
-				<name>n_vcl</name>
+				<name>N vcl total</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8521,7 +8521,7 @@
 				<data_name>n_vcl</data_name>
 			</hash_0700191c0bcb58798ba754a87b83e21a82725a>
 			<hash_070019e46ca50c590bf104d8407977be17da98>
-				<name>n_vcl_avail</name>
+				<name>N vcl available</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8530,7 +8530,7 @@
 				<data_name>n_vcl_avail</data_name>
 			</hash_070019e46ca50c590bf104d8407977be17da98>
 			<hash_070019bbad6a4dfc4d40d4eabba11a0ba76df8>
-				<name>n_vcl_discard</name>
+				<name>N vcl discarded</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8539,7 +8539,7 @@
 				<data_name>n_vcl_discard</data_name>
 			</hash_070019bbad6a4dfc4d40d4eabba11a0ba76df8>
 			<hash_070019c2d113e4b95ad85cd8e8286dcbd078b4>
-				<name>n_purge</name>
+				<name>N total active purges</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8548,7 +8548,7 @@
 				<data_name>n_purge</data_name>
 			</hash_070019c2d113e4b95ad85cd8e8286dcbd078b4>
 			<hash_070019ad04dd4cae8e9bfd85da31aabe2569e4>
-				<name>n_purge_add</name>
+				<name>N new purges added</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8557,7 +8557,7 @@
 				<data_name>n_purge_add</data_name>
 			</hash_070019ad04dd4cae8e9bfd85da31aabe2569e4>
 			<hash_07001917e11b40c8e9f43b51f269310b70952a>
-				<name>n_purge_retire</name>
+				<name>N old purges deleted</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8566,7 +8566,7 @@
 				<data_name>n_purge_retire</data_name>
 			</hash_07001917e11b40c8e9f43b51f269310b70952a>
 			<hash_070019786d0113ca27d4f0c79ea602493a1432>
-				<name>n_purge_obj_test</name>
+				<name>N objects tested</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8575,7 +8575,7 @@
 				<data_name>n_purge_obj_test</data_name>
 			</hash_070019786d0113ca27d4f0c79ea602493a1432>
 			<hash_070019a8dd56f86b442998dae0622ca31ec6ea>
-				<name>n_purge_re_test</name>
+				<name>N regexps tested against</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8584,7 +8584,7 @@
 				<data_name>n_purge_re_test</data_name>
 			</hash_070019a8dd56f86b442998dae0622ca31ec6ea>
 			<hash_0700198982d7bf878158e1fa19e5baa83bb1d9>
-				<name>n_purge_dups</name>
+				<name>N duplicate purges removed</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8618,7 +8618,7 @@
 		<steps>1</steps>
 		<rows>600</rows>
 		<timespan>86400</timespan>
-		<cf_items>1|3</cf_items>
+		<cf_items>1|2|3|4</cf_items>
 	</hash_150019c21df5178e5c955013591239eb0afd46>
 	<hash_1500190d9c0af8b8acdc7807943937b3208e29>
 		<name>Weekly (30 Minute Average)</name>
@@ -8626,7 +8626,7 @@
 		<steps>6</steps>
 		<rows>700</rows>
 		<timespan>604800</timespan>
-		<cf_items>1|3</cf_items>
+		<cf_items>1|2|3|4</cf_items>
 	</hash_1500190d9c0af8b8acdc7807943937b3208e29>
 	<hash_1500196fc2d038fb42950138b0ce3e9874cc60>
 		<name>Monthly (2 Hour Average)</name>
@@ -8634,7 +8634,7 @@
 		<steps>24</steps>
 		<rows>775</rows>
 		<timespan>2678400</timespan>
-		<cf_items>1|3</cf_items>
+		<cf_items>1|2|3|4</cf_items>
 	</hash_1500196fc2d038fb42950138b0ce3e9874cc60>
 	<hash_150019e36f3adb9f152adfa5dc50fd2b23337e>
 		<name>Yearly (1 Day Average)</name>
@@ -8642,7 +8642,7 @@
 		<steps>288</steps>
 		<rows>797</rows>
 		<timespan>33053184</timespan>
-		<cf_items>1|3</cf_items>
+		<cf_items>1|2|3|4</cf_items>
 	</hash_150019e36f3adb9f152adfa5dc50fd2b23337e>
 	<hash_150019283ea2bf1634d92ce081ec82a634f513>
 		<name>Hourly (1 Minute Average)</name>
