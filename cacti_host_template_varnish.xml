@@ -8035,7 +8035,7 @@
 				<data_name>n_lru_moved</data_name>
 			</hash_07001965ecbc4dba57cdb7503852a491bec53e>
 			<hash_0700194053f4b4f207dd2ce9ab6e9f0079c8c5>
-				<name>n_lru_saved</name>
+				<name>N LRU saved objects</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
@@ -8287,7 +8287,7 @@
 				<data_name>fetch_eof</data_name>
 			</hash_070019cbaec729755ade9bc7849d70ba5de7c2>
 			<hash_070019d32ed882583509da53c373b14f0fb034>
-				<name>fetch_chunked</name>
+				<name>Fetch chunked</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
