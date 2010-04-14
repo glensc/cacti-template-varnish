@@ -2,7 +2,7 @@
 Summary:	Varnish Cache statistics template for Cacti
 Name:		cacti-template-%{template}
 Version:	0.0.3
-Release:	0.5
+Release:	0.6
 License:	GPL v2
 Group:		Applications/WWW
 Source1:	get_varnish_stats.py
@@ -21,14 +21,27 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Template for Cacti - Varnish Cache statistics.
 
-Uses advanced template from
-<http://forums.cacti.net/viewtopic.php?p=182152>
-
-Combines script to pull data via varnish telnet port from
-<http://forums.cacti.net/viewtopic.php?t=31260>
-
 %prep
 %setup -qcT
+
+cat > README <<'EOF'
+Uses advanced template from:
+<http://forums.cacti.net/viewtopic.php?p=182152>
+
+Combines script to pull data via Varnish admin port from
+<http://forums.cacti.net/viewtopic.php?t=31260>
+
+How to install
+==============
+
+1 - Import cacti_host_template_varnish.xml to Cacti (tested with 0.8.7e)
+2 - Copy get_varnish_stats.py to "scripts"
+
+###############################################################################
+IMPORTANT: You need to recompile spine with "./configure --with-results-buffer=2048"
+###############################################################################
+
+EOF
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -44,5 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README
 %attr(755,root,root) %{scriptsdir}/get_varnish_stats.py
 %{resourcedir}/*.xml
