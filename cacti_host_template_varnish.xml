@@ -1,14 +1,14 @@
 <cacti>	
 	<hash_0200195042182fd26172f8fc676077bc62c426>
-		<name>New Varnish</name>
+		<name>Varnish</name>
 		<graph_templates>hash_0000195ab783f58d01603b53eac096e9a344c1|hash_0000191444d446cc90070b9ff5b83e63d20014|hash_000019db1cbcab1db1bdcbc1de2838c4613438|hash_00001988c22342a595d86fb225fb494b89389e|hash_00001930bfb8f21ddf8a4063f56bc2cf84a26b|hash_000019c94ddc6be13910cd34b8a4097e41ef7e|hash_00001965acc325d1930bf6c710a2aec77725d1|hash_000019013eb47c570bdd64c1d5f0df9aa34fb4|hash_0000199758b55dd2c6f39bec7cead56f452ba2|hash_0000191077eb4207d2cb0a02bcfc7f6d436546|hash_0000199994d2f28f3a566952720e128da6ef80|hash_000019bc3be90c59f0dae74c6a8e1d16a8e110|hash_0000198595a0d6e41e7edda8498129a3ea8c5f|hash_000019049d5779e13faf7d0903240cd4938bb3|hash_000019797a80fee61de10e941fe97f72a2efd9|hash_0000192528b553df7c9b2e9fac78fa8ff91557|hash_00001937011f48399d1943412d327774412b8d|hash_000019afb16e90b7789f8c7ec04800fd2de555|hash_00001935ac8c9d331adec35465e91518611d58|hash_000019e6fd83f869534e1193fab3c3f2fb0c5e|hash_000019371740c8946ce7e763fb544b9b9e2969|hash_0000193a641adf53f073097cfec89d9ea47bab|hash_0000195710a1e58467fffb4ac03934acaa3652</graph_templates>
 		<data_queries></data_queries>
 	</hash_0200195042182fd26172f8fc676077bc62c426>
 	<hash_0000195ab783f58d01603b53eac096e9a344c1>
-		<name>New Varnish Stats - Hitrate %</name>
+		<name>Varnish Stats - Hitrate %</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Hitrate %</title>
+			<title>|host_description| - Varnish - Hitrate %</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -140,10 +140,10 @@
 		</inputs>
 	</hash_0000195ab783f58d01603b53eac096e9a344c1>
 	<hash_0000191444d446cc90070b9ff5b83e63d20014>
-		<name>New Varnish Stats - Memory Usage</name>
+		<name>Varnish Stats - Memory Usage</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Memory Usage</title>
+			<title>|host_description| - Varnish - Memory Usage</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -359,10 +359,10 @@
 		</inputs>
 	</hash_0000191444d446cc90070b9ff5b83e63d20014>
 	<hash_000019db1cbcab1db1bdcbc1de2838c4613438>
-		<name>New Varnish Stats - Data structure sizes</name>
+		<name>Varnish Stats - Data structure sizes</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Data structure sizes</title>
+			<title>|host_description| - Varnish - Data structure sizes</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -926,10 +926,10 @@
 		</inputs>
 	</hash_000019db1cbcab1db1bdcbc1de2838c4613438>
 	<hash_00001988c22342a595d86fb225fb494b89389e>
-		<name>New Varnish Stats - LRU activity</name>
+		<name>Varnish Stats - LRU activity</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - LRU activity</title>
+			<title>|host_description| - Varnish - LRU activity</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -1145,10 +1145,10 @@
 		</inputs>
 	</hash_00001988c22342a595d86fb225fb494b89389e>
 	<hash_00001930bfb8f21ddf8a4063f56bc2cf84a26b>
-		<name>New Varnish Stats - Critbit data</name>
+		<name>Varnish Stats - Critbit data</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Critbit data</title>
+			<title>|host_description| - Varnish - Critbit data</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -1364,10 +1364,10 @@
 		</inputs>
 	</hash_00001930bfb8f21ddf8a4063f56bc2cf84a26b>
 	<hash_000019c94ddc6be13910cd34b8a4097e41ef7e>
-		<name>New Varnish Stats - Objects overflowing workspace</name>
+		<name>Varnish Stats - Objects overflowing workspace</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Objects overflowing workspace</title>
+			<title>|host_description| - Varnish - Objects overflowing workspace</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -1467,10 +1467,10 @@
 		</inputs>
 	</hash_000019c94ddc6be13910cd34b8a4097e41ef7e>
 	<hash_00001965acc325d1930bf6c710a2aec77725d1>
-		<name>New Varnish Stats - Number of objects</name>
+		<name>Varnish Stats - Number of objects</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Number of objects</title>
+			<title>|host_description| - Varnish - Number of objects</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -1641,10 +1641,10 @@
 		</inputs>
 	</hash_00001965acc325d1930bf6c710a2aec77725d1>
 	<hash_000019013eb47c570bdd64c1d5f0df9aa34fb4>
-		<name>New Varnish Stats - Transfer rates</name>
+		<name>Varnish Stats - Transfer rates</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Transfer rates</title>
+			<title>|host_description| - Varnish - Transfer rates</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -1815,10 +1815,10 @@
 		</inputs>
 	</hash_000019013eb47c570bdd64c1d5f0df9aa34fb4>
 	<hash_0000199758b55dd2c6f39bec7cead56f452ba2>
-		<name>New Varnish Stats - Request rates</name>
+		<name>Varnish Stats - Request rates</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Request rates</title>
+			<title>|host_description| - Varnish - Request rates</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -2382,10 +2382,10 @@
 		</inputs>
 	</hash_0000199758b55dd2c6f39bec7cead56f452ba2>
 	<hash_0000191077eb4207d2cb0a02bcfc7f6d436546>
-		<name>New Varnish Stats - Object expunging</name>
+		<name>Varnish Stats - Object expunging</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Object expunging</title>
+			<title>|host_description| - Varnish - Object expunging</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -2543,10 +2543,10 @@
 		</inputs>
 	</hash_0000191077eb4207d2cb0a02bcfc7f6d436546>
 	<hash_0000199994d2f28f3a566952720e128da6ef80>
-		<name>New Varnish Stats - Hit rates</name>
+		<name>Varnish Stats - Hit rates</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Hit rates</title>
+			<title>|host_description| - Varnish - Hit rates</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -2820,10 +2820,10 @@
 		</inputs>
 	</hash_0000199994d2f28f3a566952720e128da6ef80>
 	<hash_000019bc3be90c59f0dae74c6a8e1d16a8e110>
-		<name>New Varnish Stats - Backend Traffic</name>
+		<name>Varnish Stats - Backend Traffic</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Backend Traffic</title>
+			<title>|host_description| - Varnish - Backend Traffic</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -3329,10 +3329,10 @@
 		</inputs>
 	</hash_000019bc3be90c59f0dae74c6a8e1d16a8e110>
 	<hash_0000198595a0d6e41e7edda8498129a3ea8c5f>
-		<name>New Varnish Stats - Thread status</name>
+		<name>Varnish Stats - Thread status</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Thread status</title>
+			<title>|host_description| - Varnish - Thread status</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -3722,10 +3722,10 @@
 		</inputs>
 	</hash_0000198595a0d6e41e7edda8498129a3ea8c5f>
 	<hash_000019049d5779e13faf7d0903240cd4938bb3>
-		<name>New Varnish Stats - Uptime</name>
+		<name>Varnish Stats - Uptime</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Uptime</title>
+			<title>|host_description| - Varnish - Uptime</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -3825,10 +3825,10 @@
 		</inputs>
 	</hash_000019049d5779e13faf7d0903240cd4938bb3>
 	<hash_000019797a80fee61de10e941fe97f72a2efd9>
-		<name>New Varnish Stats - Shared memory activity</name>
+		<name>Varnish Stats - Shared memory activity</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Shared memory activity</title>
+			<title>|host_description| - Varnish - Shared memory activity</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -4044,10 +4044,10 @@
 		</inputs>
 	</hash_000019797a80fee61de10e941fe97f72a2efd9>
 	<hash_0000192528b553df7c9b2e9fac78fa8ff91557>
-		<name>New Varnish Stats - SHM writes and records</name>
+		<name>Varnish Stats - SHM writes and records</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - SHM writes and records</title>
+			<title>|host_description| - Varnish - SHM writes and records</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -4205,10 +4205,10 @@
 		</inputs>
 	</hash_0000192528b553df7c9b2e9fac78fa8ff91557>
 	<hash_00001937011f48399d1943412d327774412b8d>
-		<name>New Varnish Stats - Memory allocation requests</name>
+		<name>Varnish Stats - Memory allocation requests</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Memory allocation requests</title>
+			<title>|host_description| - Varnish - Memory allocation requests</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -4424,10 +4424,10 @@
 		</inputs>
 	</hash_00001937011f48399d1943412d327774412b8d>
 	<hash_000019afb16e90b7789f8c7ec04800fd2de555>
-		<name>New Varnish Stats - Objects per objecthead</name>
+		<name>Varnish Stats - Objects per objecthead</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Objects per objecthead</title>
+			<title>|host_description| - Varnish - Objects per objecthead</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -4559,10 +4559,10 @@
 		</inputs>
 	</hash_000019afb16e90b7789f8c7ec04800fd2de555>
 	<hash_00001935ac8c9d331adec35465e91518611d58>
-		<name>New Varnish Stats - Objects delivered with sendfile versus write</name>
+		<name>Varnish Stats - Objects delivered with sendfile versus write</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Objects delivered with sendfile versus write</title>
+			<title>|host_description| - Varnish - Objects delivered with sendfile versus write</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -4720,10 +4720,10 @@
 		</inputs>
 	</hash_00001935ac8c9d331adec35465e91518611d58>
 	<hash_000019e6fd83f869534e1193fab3c3f2fb0c5e>
-		<name>New Varnish Stats - ESI</name>
+		<name>Varnish Stats - ESI</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - ESI</title>
+			<title>|host_description| - Varnish - ESI</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -4881,10 +4881,10 @@
 		</inputs>
 	</hash_000019e6fd83f869534e1193fab3c3f2fb0c5e>
 	<hash_000019371740c8946ce7e763fb544b9b9e2969>
-		<name>New Varnish Stats - Sessions</name>
+		<name>Varnish Stats - Sessions</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Sessions</title>
+			<title>|host_description| - Varnish - Sessions</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -5158,10 +5158,10 @@
 		</inputs>
 	</hash_000019371740c8946ce7e763fb544b9b9e2969>
 	<hash_0000193a641adf53f073097cfec89d9ea47bab>
-		<name>New Varnish Stats - Session herd</name>
+		<name>Varnish Stats - Session herd</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - Session herd</title>
+			<title>|host_description| - Varnish - Session herd</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -5261,10 +5261,10 @@
 		</inputs>
 	</hash_0000193a641adf53f073097cfec89d9ea47bab>
 	<hash_0000195710a1e58467fffb4ac03934acaa3652>
-		<name>New Varnish Stats - VCL and purges</name>
+		<name>Varnish Stats - VCL and purges</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish Stats - VCL and purges</title>
+			<title>|host_description| - Varnish - VCL and purges</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -5886,10 +5886,10 @@
 		</inputs>
 	</hash_0000195710a1e58467fffb4ac03934acaa3652>
 	<hash_010019743e9db63fae1c563b717bc142d5ac91>
-		<name>New Varnish Stats - Hitrate %</name>
+		<name>Varnish Stats - Hitrate %</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Hitrate %</name>
+			<name>|host_description| - Varnish - Hitrate %</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -5930,22 +5930,22 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_010019743e9db63fae1c563b717bc142d5ac91>
 	<hash_0100192c141a267c93bd2e2068c760287d9d83>
-		<name>New Varnish Stats - Memory Usage</name>
+		<name>Varnish Stats - Memory Usage</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Memory Usage</name>
+			<name>|host_description| - Varnish - Memory Usage</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6012,10 +6012,10 @@
 		</data>
 	</hash_0100192c141a267c93bd2e2068c760287d9d83>
 	<hash_0100191dbd790cc79d11a9fa7689d1ae148c24>
-		<name>New Varnish Stats - Data structure sizes</name>
+		<name>Varnish Stats - Data structure sizes</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Data structure sizes</name>
+			<name>|host_description| - Varnish - Data structure sizes</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6166,10 +6166,10 @@
 		</data>
 	</hash_0100191dbd790cc79d11a9fa7689d1ae148c24>
 	<hash_0100192844aa853a7a5023343d402ef1bcc5f1>
-		<name>New Varnish Stats - LRU Activity</name>
+		<name>Varnish Stats - LRU Activity</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - LRU Activity</name>
+			<name>|host_description| - Varnish - LRU Activity</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6236,10 +6236,10 @@
 		</data>
 	</hash_0100192844aa853a7a5023343d402ef1bcc5f1>
 	<hash_010019970845a6ca17929baf45b2be3e38e4a6>
-		<name>New Varnish Stats - Critbit</name>
+		<name>Varnish Stats - Critbit</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Critbit</name>
+			<name>|host_description| - Varnish - Critbit</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6306,10 +6306,10 @@
 		</data>
 	</hash_010019970845a6ca17929baf45b2be3e38e4a6>
 	<hash_010019fbd678aa17bb6907f39d70f68af434e2>
-		<name>New Varnish Stats - Objects overflowing workspace</name>
+		<name>Varnish Stats - Objects overflowing workspace</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Objects overflowing workspace</name>
+			<name>|host_description| - Varnish - Objects overflowing workspace</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6348,10 +6348,10 @@
 		</data>
 	</hash_010019fbd678aa17bb6907f39d70f68af434e2>
 	<hash_010019c7439b6c2065590e37cdc2b562f6ddf4>
-		<name>New Varnish Stats - Number of objects</name>
+		<name>Varnish Stats - Number of objects</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Number of objects</name>
+			<name>|host_description| - Varnish - Number of objects</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6404,10 +6404,10 @@
 		</data>
 	</hash_010019c7439b6c2065590e37cdc2b562f6ddf4>
 	<hash_0100197ae8cb6eb212d3d4fda2b64e3117036d>
-		<name>New Varnish Stats - Transfer rates</name>
+		<name>Varnish Stats - Transfer rates</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Transfer rates</name>
+			<name>|host_description| - Varnish - Transfer rates</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6460,10 +6460,10 @@
 		</data>
 	</hash_0100197ae8cb6eb212d3d4fda2b64e3117036d>
 	<hash_0100193463fb16cd838c7db93cd4f67bfa35d0>
-		<name>New Varnish Stats - Request rates</name>
+		<name>Varnish Stats - Request rates</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Request rates</name>
+			<name>|host_description| - Varnish - Request rates</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6614,10 +6614,10 @@
 		</data>
 	</hash_0100193463fb16cd838c7db93cd4f67bfa35d0>
 	<hash_010019b815a84d9f3a494ac4ebd2e9ef733b40>
-		<name>New Varnish Stats - Object expunging</name>
+		<name>Varnish Stats - Object expunging</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Object expunging</name>
+			<name>|host_description| - Varnish - Object expunging</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6670,10 +6670,10 @@
 		</data>
 	</hash_010019b815a84d9f3a494ac4ebd2e9ef733b40>
 	<hash_01001957348350f63cd4d1ace70df6421526a5>
-		<name>New Varnish Stats - Hit rates</name>
+		<name>Varnish Stats - Hit rates</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Hit rates</name>
+			<name>|host_description| - Varnish - Hit rates</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6754,10 +6754,10 @@
 		</data>
 	</hash_01001957348350f63cd4d1ace70df6421526a5>
 	<hash_0100194953de12ec4319751cc9cb55aa0db5cf>
-		<name>New Varnish Stats - Backend traffic</name>
+		<name>Varnish Stats - Backend traffic</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Backend traffic</name>
+			<name>|host_description| - Varnish - Backend traffic</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -6882,22 +6882,22 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
-				<t_value>on</t_value>
-				<value></value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
 				<t_value>on</t_value>
 				<value>6082</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 		</data>
 	</hash_0100194953de12ec4319751cc9cb55aa0db5cf>
 	<hash_010019b0f2e3b74840790b5eed22185cc01ac9>
-		<name>New Varnish Stats - Thread status</name>
+		<name>Varnish Stats - Thread status</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Thread status</name>
+			<name>|host_description| - Varnish - Thread status</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7006,10 +7006,10 @@
 		</data>
 	</hash_010019b0f2e3b74840790b5eed22185cc01ac9>
 	<hash_010019d43490e2b721cc181f5c874de8c115b6>
-		<name>New Varnish Stats - Uptime</name>
+		<name>Varnish Stats - Uptime</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Uptime</name>
+			<name>|host_description| - Varnish - Uptime</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7048,10 +7048,10 @@
 		</data>
 	</hash_010019d43490e2b721cc181f5c874de8c115b6>
 	<hash_010019d1d0fc2201c0eca813d3da6e97d43b3b>
-		<name>New Varnish Stats - Shared memory activity</name>
+		<name>Varnish Stats - Shared memory activity</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Shared memory activity</name>
+			<name>|host_description| - Varnish - Shared memory activity</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7118,10 +7118,10 @@
 		</data>
 	</hash_010019d1d0fc2201c0eca813d3da6e97d43b3b>
 	<hash_0100193c6752fb727ad46825e94de5f081b548>
-		<name>New Varnish Stats - SHM writes and records</name>
+		<name>Varnish Stats - SHM writes and records</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - SHM writes and records</name>
+			<name>|host_description| - Varnish - SHM writes and records</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7174,10 +7174,10 @@
 		</data>
 	</hash_0100193c6752fb727ad46825e94de5f081b548>
 	<hash_010019636e1b81523d5cd34929cf698ed17c5e>
-		<name>New Varnish Stats - Memory allocation requests</name>
+		<name>Varnish Stats - Memory allocation requests</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Memory allocation requests</name>
+			<name>|host_description| - Varnish - Memory allocation requests</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7244,10 +7244,10 @@
 		</data>
 	</hash_010019636e1b81523d5cd34929cf698ed17c5e>
 	<hash_0100195a55cbfef7689c33f21d18ccc6842ddf>
-		<name>New Varnish Stats - Objects per objecthead</name>
+		<name>Varnish Stats - Objects per objecthead</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Objects per objecthead</name>
+			<name>|host_description| - Varnish - Objects per objecthead</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7300,10 +7300,10 @@
 		</data>
 	</hash_0100195a55cbfef7689c33f21d18ccc6842ddf>
 	<hash_010019f8336d07cbbd59071ed06941ccd41964>
-		<name>New Varnish Stats - Objects delivered with sendfile versus write</name>
+		<name>Varnish Stats - Objects delivered with sendfile versus write</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Objects delivered with sendfile versus write</name>
+			<name>|host_description| - Varnish - Objects delivered with sendfile versus write</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7356,10 +7356,10 @@
 		</data>
 	</hash_010019f8336d07cbbd59071ed06941ccd41964>
 	<hash_010019373c3c0d37736429baf5596a955a15c6>
-		<name>New Varnish Stats - ESI</name>
+		<name>Varnish Stats - ESI</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - ESI</name>
+			<name>|host_description| - Varnish - ESI</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7412,10 +7412,10 @@
 		</data>
 	</hash_010019373c3c0d37736429baf5596a955a15c6>
 	<hash_01001944a59a621f6b404e75d4207aab34b264>
-		<name>New Varnish Stats - Sessions</name>
+		<name>Varnish Stats - Sessions</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Sessions</name>
+			<name>|host_description| - Varnish - Sessions</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7496,10 +7496,10 @@
 		</data>
 	</hash_01001944a59a621f6b404e75d4207aab34b264>
 	<hash_010019ad9fa9f9b39c8db1461da31f2925f56e>
-		<name>New Varnish Stats - Session herd</name>
+		<name>Varnish Stats - Session herd</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - Session herd</name>
+			<name>|host_description| - Varnish - Session herd</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7538,10 +7538,10 @@
 		</data>
 	</hash_010019ad9fa9f9b39c8db1461da31f2925f56e>
 	<hash_010019e5411d723d20ca56ee7593e8627cad63>
-		<name>New Varnish Stats - VCL and purges</name>
+		<name>Varnish Stats - VCL and purges</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish Stats - VCL and purges</name>
+			<name>|host_description| - Varnish - VCL and purges</name>
 			<data_input_id>hash_030019359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7694,21 +7694,21 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
-				<t_value>on</t_value>
-				<value>6082</value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_0700199fa26add6e0e00188a8d7412401d4dea</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_070019053702a2c20e000ea0163c6a8d33eb32</data_input_field_id>
+				<t_value>on</t_value>
+				<value>6082</value>
 			</item_001>
 		</data>
 	</hash_010019e5411d723d20ca56ee7593e8627cad63>
 	<hash_030019359867089c0559bbc7794f0ad9eb8df7>
 		<name>Varnish Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/python path_cacti/scripts/get_varnish_stats.py -h varnish_hostname -p varnish_port</input_string>
+		<input_string>/usr/bin/python &lt;path_cacti&gt;/scripts/get_varnish_stats.py -h &lt;varnish_hostname&gt; -p &lt;varnish_port&gt;</input_string>
 		<fields>
 			<hash_0700199fa26add6e0e00188a8d7412401d4dea>
 				<name>IP address of Varnish instance</name>
