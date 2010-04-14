@@ -2,21 +2,21 @@
 Summary:	Varnish Cache statistics template for Cacti
 Name:		cacti-template-%{template}
 Version:	0.0.3
-Release:	0.3
+Release:	0.5
 License:	GPL v2
 Group:		Applications/WWW
 Source1:	get_varnish_stats.py
 Source2:	cacti_host_template_varnish.xml
 URL:		http://forums.cacti.net/viewtopic.php?p=182152
+BuildRequires:	rpmbuild(macros) >= 1.554
 Requires:	cacti >= 0.8.7e-8
+Conflicts:	cacti-spine < 0.8.7e-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		cactidir		/usr/share/cacti
 %define		resourcedir		%{cactidir}/resource
 %define		scriptsdir		%{cactidir}/scripts
-
-%define		cacti_import_template() /usr/share/cacti/cli/import_template.php --filename=%1 || :
 
 %description
 Template for Cacti - Varnish Cache statistics.
