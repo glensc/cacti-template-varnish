@@ -4562,7 +4562,7 @@
 		<name>Varnish Stats - Objects delivered with sendfile versus write</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - Varnish - Objects delivered with sendfile versus write</title>
+			<title>|host_description| - Varnish - Objects delivered with sendfile vs write</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
