@@ -1,6 +1,7 @@
 
-PACKAGE_NAME    := $(patsubst %.spec,%,$(wildcard *.spec))
-PACKAGE_VERSION := $(shell awk '/Version:/{print $$2}' $(PACKAGE_NAME).spec)
+SPECFILE        := $(firstword $(wildcard *.spec))
+PACKAGE_NAME    := $(patsubst %.spec,%,$(SPECFILE))
+PACKAGE_VERSION := $(shell awk '/Version:/{print $$2}' $(SPECFILE))
 
 all:
 
