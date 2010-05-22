@@ -9,6 +9,7 @@ Source1:	get_varnish_stats.py
 Source2:	cacti_host_template_varnish.xml
 Source3:	README
 URL:		http://forums.cacti.net/viewtopic.php?p=182152
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.554
 Requires:	cacti >= 0.8.7e-8
 Conflicts:	cacti-spine < 0.8.7e-3
