@@ -155,4 +155,10 @@ for line in sample.split('\n'):
 req = res['Client requests received']
 hit = float(res['Cache hits'])
 miss = float(res['Cache misses'])
-print 'varnish_requests:'+str(req)+' varnish_hitrate:'+str(round(hit / (hit + miss) * 100, 1))
+
+if (hit + miss) != 0:
+    hitrate = round(hit / (hit + miss) * 100, 1)
+else:
+    hitrate = 0
+
+print 'varnish_requests:%s varnish_hitrate:%s' % (str(req), str(hitrate))
