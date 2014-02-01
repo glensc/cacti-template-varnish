@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # vim: set encoding=utf-8:
-# $Id$
 # Author: Elan Ruusamäe <glen@delfi.ee>
 #
 # Original varnish stat script by dmuntean from http://forums.cacti.net/viewtopic.php?t=31260
