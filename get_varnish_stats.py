@@ -1,31 +1,27 @@
 #!/usr/bin/python
 # vim: set encoding=utf-8:
 # Author: Elan Ruusamäe <glen@delfi.ee>
+# URL: https://github.com/glensc/cacti-template-varnish
 #
 # Original varnish stat script by dmuntean from http://forums.cacti.net/viewtopic.php?t=31260
 # Modified by glen to add support for new template: http://forums.cacti.net/viewtopic.php?p=182152
-#
 
 import telnetlib
 import re
 import sys
 import getopt
 
-opts, args = getopt.getopt(sys.argv[1:], "h:p:", ["host=", "port="])
+opts, args = getopt.getopt(sys.argv[1:], "h:p:2", ["host=", "port="])
 host = '127.0.0.1'
 port = 6082
+version = 3
 for o, v in opts:
-    if o in ("-h", "--host"):
-        host = str(v)
-    if o in ("-p", "--port"):
-        port = int(v)
-
-telnet = telnetlib.Telnet()
-telnet.open(host, port)
-telnet.write('stats\r\n')
-out = telnet.read_until("ESI parse errors (unlock)", 10)
-telnet.write('quit\r\n')
-telnet.close()
+	if o in ("-h", "--host"):
+		host = str(v)
+	if o in ("-p", "--port"):
+		port = int(v)
+	if o in ("-2"):
+		version = 2
 
 # This serves as template for matching keys.
 # Also all entries present in this table must be present in result
@@ -131,34 +127,112 @@ esi_parse                   0         0.00 Objects ESI parsed (unlock)
 esi_errors                  0         0.00 ESI parse errors (unlock)
 """
 
-# process results
-split = re.compile('^\s*(?P<value>\S+)\s+(?P<key>.+)$')
-res = {}
-for line in out.split('\n'):
-	m = re.search(split, line);
-	if m:
-		res[m.group('key')] = m.group('value')
+# map Varnish2 variables (keys) to related Varnish3 ones
+remap = {
+	'sm_nreq':			'SMA.s0.c_req',
+	'sm_nobj':			'SMA.s0.g_alloc',
+	'sm_balloc':		'SMA.s0.c_bytes',
+	'sm_bfree':			'SMA.s0.c_freed',
+	'n_purge':			'n_ban',
+	'n_purge_add':		'n_ban_add',
+	'n_purge_retire':	'n_ban_retire',
+	'n_purge_obj_test':	'n_ban_obj_test',
+	'n_purge_re_test':	'n_ban_re_test',
+	'n_purge_dups':		'n_ban_dups',
+	'backend_unused':	'backend_retry',
+	'n_wrk_queue':		'n_wrk_queued',
+	'sma_nreq':			'SMA.Transient.c_req',
+	'sma_nobj':			'SMA.Transient.g_alloc',
+	'sma_nbytes':		'SMA.Transient.g_bytes',
+	'sma_balloc':		'SMA.Transient.c_bytes',
+	'sma_bfree':		'SMA.Transient.g_space',
+}
 
-# map for keys
-split = re.compile('^(?P<key>\S+)\s+(\d+)\s+\S+\s+(?P<value>.+)$')
-for line in sample.split('\n'):
-	m = re.search(split, line);
-	if m:
-		if res.has_key(m.group('value')):
-			value = res[m.group('value')]
-			print "%s:%s" % (m.group('key'), value),
+# gather raw varnishstat over tcp
+def varnishstat_tcp():
+	telnet = telnetlib.Telnet()
+	telnet.open(host, port)
+
+	if version == 3:
+		# plain telnet, over xinetd
+		out = telnet.read_until("VBE.", 10)
+	else:
+		# varnishstat port
+		telnet.write('stats\r\nquit\r\n')
+		out = telnet.read_until("ESI parse errors (unlock)", 10)
+	telnet.close()
+
+	return out
+
+# process varnishstat data.
+# return KEY=VALUE pairs
+#
+# Varnish 2 output looks like (we use long description as the key)
+#200 3262
+#           1  Client connections accepted
+#           0  Connection dropped, no sess
+#           1  Client requests received
+# Varnish 3 output looks like (we use first column as the key)
+#client_conn          915477075       543.26 Client connections accepted
+#client_drop                  0         0.00 Connection dropped, no sess/wrk
+#client_req          1611485157       956.27 Client requests received
+def parse_input(text):
+	if version == 3:
+		line_re = re.compile('^(?P<key>\S+)\s+(?P<value>\d+).+$')
+	else:
+		line_re = re.compile('^\s*(?P<value>\S+)\s+(?P<key>.+)$')
+
+	res = {}
+	for line in text.split('\n'):
+		m = re.search(line_re, line)
+		if m:
+			res[m.group('key')] = m.group('value')
+	return res
+
+# map dictionary from parse_input to keys from "sample" string
+def map_keys(res):
+	if version == 3:
+		sample_key = 'key'
+	else:
+		sample_key = 'desc'
+
+	split_re = re.compile('^(?P<key>\S+)\s+(?P<value>\d+)\s+\S+\s+(?P<desc>.+)$')
+	data = {}
+	for line in sample.split('\n'):
+		m = re.search(split_re, line);
+		if not m:
+			continue
+
+		key = m.group(sample_key)
+		if remap.has_key(key):
+			key = remap[key]
+
+		if res.has_key(key):
+			value = res[key]
 		else:
 			# for missing value, print -1
-			print "%s:-1" % m.group('key'),
+			value = '-1'
+
+		data[m.group('key')] = value
+
+	return data
+
+def get_data():
+	text = varnishstat_tcp()
+	res = parse_input(text)
+	data = map_keys(res)
+	return data
+
+data = get_data()
+for k, v in data.items():
+	print '%s:%s' %(k, v),
 
 # print results for original script
-req = res['Client requests received']
-hit = float(res['Cache hits'])
-miss = float(res['Cache misses'])
-
+req = data['client_req']
+hit = float(data['cache_hit'])
+miss = float(data['cache_miss'])
 if (hit + miss) != 0:
     hitrate = round(hit / (hit + miss) * 100, 1)
 else:
     hitrate = 0
-
 print 'varnish_requests:%s varnish_hitrate:%s' % (str(req), str(hitrate))
