@@ -7708,7 +7708,7 @@
 	<hash_030024359867089c0559bbc7794f0ad9eb8df7>
 		<name>Varnish Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/python &lt;path_cacti&gt;/scripts/get_varnish_stats.py -h &lt;varnish_hostname&gt; -p &lt;varnish_port&gt;</input_string>
+		<input_string>/usr/bin/python &lt;path_cacti&gt;/scripts/get_varnish_stats.py -h &lt;hostname&gt; -p &lt;port&gt;</input_string>
 		<fields>
 			<hash_0700249fa26add6e0e00188a8d7412401d4dea>
 				<name>IP address of Varnish instance</name>
@@ -7717,7 +7717,7 @@
 				<allow_nulls></allow_nulls>
 				<type_code>hostname</type_code>
 				<input_output>in</input_output>
-				<data_name>varnish_hostname</data_name>
+				<data_name>hostname</data_name>
 			</hash_0700249fa26add6e0e00188a8d7412401d4dea>
 			<hash_070024053702a2c20e000ea0163c6a8d33eb32>
 				<name>Varnish management interface port</name>
@@ -7726,7 +7726,7 @@
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>in</input_output>
-				<data_name>varnish_port</data_name>
+				<data_name>port</data_name>
 			</hash_070024053702a2c20e000ea0163c6a8d33eb32>
 			<hash_0700248982d7bf878158e1fa19e5baa83bb1d9>
 				<name>N duplicate purges removed</name>
