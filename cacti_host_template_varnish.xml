@@ -5,7 +5,7 @@
 		<data_queries></data_queries>
 	</hash_0200245042182fd26172f8fc676077bc62c426>
 	<hash_0000245ab783f58d01603b53eac096e9a344c1>
-		<name>Varnish Stats - Hitrate %</name>
+		<name>Varnish - Hitrate %</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Hitrate %</title>
@@ -140,7 +140,7 @@
 		</inputs>
 	</hash_0000245ab783f58d01603b53eac096e9a344c1>
 	<hash_0000241444d446cc90070b9ff5b83e63d20014>
-		<name>Varnish Stats - Memory Usage</name>
+		<name>Varnish - Memory Usage</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Memory Usage</title>
@@ -359,7 +359,7 @@
 		</inputs>
 	</hash_0000241444d446cc90070b9ff5b83e63d20014>
 	<hash_000024db1cbcab1db1bdcbc1de2838c4613438>
-		<name>Varnish Stats - Data structure sizes</name>
+		<name>Varnish - Data structure sizes</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Data structure sizes</title>
@@ -926,7 +926,7 @@
 		</inputs>
 	</hash_000024db1cbcab1db1bdcbc1de2838c4613438>
 	<hash_00002488c22342a595d86fb225fb494b89389e>
-		<name>Varnish Stats - LRU activity</name>
+		<name>Varnish - LRU activity</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - LRU activity</title>
@@ -1145,7 +1145,7 @@
 		</inputs>
 	</hash_00002488c22342a595d86fb225fb494b89389e>
 	<hash_00002430bfb8f21ddf8a4063f56bc2cf84a26b>
-		<name>Varnish Stats - Critbit data</name>
+		<name>Varnish - Critbit data</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Critbit data</title>
@@ -1364,7 +1364,7 @@
 		</inputs>
 	</hash_00002430bfb8f21ddf8a4063f56bc2cf84a26b>
 	<hash_000024c94ddc6be13910cd34b8a4097e41ef7e>
-		<name>Varnish Stats - Objects overflowing workspace</name>
+		<name>Varnish - Objects overflowing workspace</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Objects overflowing workspace</title>
@@ -1467,7 +1467,7 @@
 		</inputs>
 	</hash_000024c94ddc6be13910cd34b8a4097e41ef7e>
 	<hash_00002465acc325d1930bf6c710a2aec77725d1>
-		<name>Varnish Stats - Number of objects</name>
+		<name>Varnish - Number of objects</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Number of objects</title>
@@ -1641,7 +1641,7 @@
 		</inputs>
 	</hash_00002465acc325d1930bf6c710a2aec77725d1>
 	<hash_000024013eb47c570bdd64c1d5f0df9aa34fb4>
-		<name>Varnish Stats - Transfer rates</name>
+		<name>Varnish - Transfer rates</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Transfer rates</title>
@@ -1815,7 +1815,7 @@
 		</inputs>
 	</hash_000024013eb47c570bdd64c1d5f0df9aa34fb4>
 	<hash_0000249758b55dd2c6f39bec7cead56f452ba2>
-		<name>Varnish Stats - Request rates</name>
+		<name>Varnish - Request rates</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Request rates</title>
@@ -2382,7 +2382,7 @@
 		</inputs>
 	</hash_0000249758b55dd2c6f39bec7cead56f452ba2>
 	<hash_0000241077eb4207d2cb0a02bcfc7f6d436546>
-		<name>Varnish Stats - Object expunging</name>
+		<name>Varnish - Object expunging</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Object expunging</title>
@@ -2543,7 +2543,7 @@
 		</inputs>
 	</hash_0000241077eb4207d2cb0a02bcfc7f6d436546>
 	<hash_0000249994d2f28f3a566952720e128da6ef80>
-		<name>Varnish Stats - Hit rates</name>
+		<name>Varnish - Hit rates</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Hit rates</title>
@@ -2820,7 +2820,7 @@
 		</inputs>
 	</hash_0000249994d2f28f3a566952720e128da6ef80>
 	<hash_000024bc3be90c59f0dae74c6a8e1d16a8e110>
-		<name>Varnish Stats - Backend Traffic</name>
+		<name>Varnish - Backend Traffic</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Backend Traffic</title>
@@ -3329,7 +3329,7 @@
 		</inputs>
 	</hash_000024bc3be90c59f0dae74c6a8e1d16a8e110>
 	<hash_0000248595a0d6e41e7edda8498129a3ea8c5f>
-		<name>Varnish Stats - Thread status</name>
+		<name>Varnish - Thread status</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Thread status</title>
@@ -3722,7 +3722,7 @@
 		</inputs>
 	</hash_0000248595a0d6e41e7edda8498129a3ea8c5f>
 	<hash_000024049d5779e13faf7d0903240cd4938bb3>
-		<name>Varnish Stats - Uptime</name>
+		<name>Varnish - Uptime</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Uptime</title>
@@ -3825,7 +3825,7 @@
 		</inputs>
 	</hash_000024049d5779e13faf7d0903240cd4938bb3>
 	<hash_000024797a80fee61de10e941fe97f72a2efd9>
-		<name>Varnish Stats - Shared memory activity</name>
+		<name>Varnish - Shared memory activity</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Shared memory activity</title>
@@ -4044,7 +4044,7 @@
 		</inputs>
 	</hash_000024797a80fee61de10e941fe97f72a2efd9>
 	<hash_0000242528b553df7c9b2e9fac78fa8ff91557>
-		<name>Varnish Stats - SHM writes and records</name>
+		<name>Varnish - SHM writes and records</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - SHM writes and records</title>
@@ -4205,7 +4205,7 @@
 		</inputs>
 	</hash_0000242528b553df7c9b2e9fac78fa8ff91557>
 	<hash_00002437011f48399d1943412d327774412b8d>
-		<name>Varnish Stats - Memory allocation requests</name>
+		<name>Varnish - Memory allocation requests</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Memory allocation requests</title>
@@ -4424,7 +4424,7 @@
 		</inputs>
 	</hash_00002437011f48399d1943412d327774412b8d>
 	<hash_000024afb16e90b7789f8c7ec04800fd2de555>
-		<name>Varnish Stats - Objects per objecthead</name>
+		<name>Varnish - Objects per objecthead</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Objects per objecthead</title>
@@ -4559,7 +4559,7 @@
 		</inputs>
 	</hash_000024afb16e90b7789f8c7ec04800fd2de555>
 	<hash_00002435ac8c9d331adec35465e91518611d58>
-		<name>Varnish Stats - Objects delivered with sendfile versus write</name>
+		<name>Varnish - Objects delivered with sendfile vs write</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Objects delivered with sendfile vs write</title>
@@ -4720,7 +4720,7 @@
 		</inputs>
 	</hash_00002435ac8c9d331adec35465e91518611d58>
 	<hash_000024e6fd83f869534e1193fab3c3f2fb0c5e>
-		<name>Varnish Stats - ESI</name>
+		<name>Varnish - ESI</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - ESI</title>
@@ -4881,7 +4881,7 @@
 		</inputs>
 	</hash_000024e6fd83f869534e1193fab3c3f2fb0c5e>
 	<hash_000024371740c8946ce7e763fb544b9b9e2969>
-		<name>Varnish Stats - Sessions</name>
+		<name>Varnish - Sessions</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Sessions</title>
@@ -5158,7 +5158,7 @@
 		</inputs>
 	</hash_000024371740c8946ce7e763fb544b9b9e2969>
 	<hash_0000243a641adf53f073097cfec89d9ea47bab>
-		<name>Varnish Stats - Session herd</name>
+		<name>Varnish - Session herd</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - Session herd</title>
@@ -5261,7 +5261,7 @@
 		</inputs>
 	</hash_0000243a641adf53f073097cfec89d9ea47bab>
 	<hash_0000245710a1e58467fffb4ac03934acaa3652>
-		<name>Varnish Stats - VCL and purges</name>
+		<name>Varnish - VCL and purges</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Varnish - VCL and purges</title>
@@ -5886,7 +5886,7 @@
 		</inputs>
 	</hash_0000245710a1e58467fffb4ac03934acaa3652>
 	<hash_010024743e9db63fae1c563b717bc142d5ac91>
-		<name>Varnish Stats - Hitrate %</name>
+		<name>Varnish - Hitrate %</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Hitrate %</name>
@@ -5942,7 +5942,7 @@
 		</data>
 	</hash_010024743e9db63fae1c563b717bc142d5ac91>
 	<hash_0100242c141a267c93bd2e2068c760287d9d83>
-		<name>Varnish Stats - Memory Usage</name>
+		<name>Varnish - Memory Usage</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Memory Usage</name>
@@ -6012,7 +6012,7 @@
 		</data>
 	</hash_0100242c141a267c93bd2e2068c760287d9d83>
 	<hash_0100241dbd790cc79d11a9fa7689d1ae148c24>
-		<name>Varnish Stats - Data structure sizes</name>
+		<name>Varnish - Data structure sizes</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Data structure sizes</name>
@@ -6166,7 +6166,7 @@
 		</data>
 	</hash_0100241dbd790cc79d11a9fa7689d1ae148c24>
 	<hash_0100242844aa853a7a5023343d402ef1bcc5f1>
-		<name>Varnish Stats - LRU Activity</name>
+		<name>Varnish - LRU Activity</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - LRU Activity</name>
@@ -6236,7 +6236,7 @@
 		</data>
 	</hash_0100242844aa853a7a5023343d402ef1bcc5f1>
 	<hash_010024970845a6ca17929baf45b2be3e38e4a6>
-		<name>Varnish Stats - Critbit</name>
+		<name>Varnish - Critbit</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Critbit</name>
@@ -6306,7 +6306,7 @@
 		</data>
 	</hash_010024970845a6ca17929baf45b2be3e38e4a6>
 	<hash_010024fbd678aa17bb6907f39d70f68af434e2>
-		<name>Varnish Stats - Objects overflowing workspace</name>
+		<name>Varnish - Objects overflowing workspace</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Objects overflowing workspace</name>
@@ -6348,7 +6348,7 @@
 		</data>
 	</hash_010024fbd678aa17bb6907f39d70f68af434e2>
 	<hash_010024c7439b6c2065590e37cdc2b562f6ddf4>
-		<name>Varnish Stats - Number of objects</name>
+		<name>Varnish - Number of objects</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Number of objects</name>
@@ -6404,7 +6404,7 @@
 		</data>
 	</hash_010024c7439b6c2065590e37cdc2b562f6ddf4>
 	<hash_0100247ae8cb6eb212d3d4fda2b64e3117036d>
-		<name>Varnish Stats - Transfer rates</name>
+		<name>Varnish - Transfer rates</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Transfer rates</name>
@@ -6460,7 +6460,7 @@
 		</data>
 	</hash_0100247ae8cb6eb212d3d4fda2b64e3117036d>
 	<hash_0100243463fb16cd838c7db93cd4f67bfa35d0>
-		<name>Varnish Stats - Request rates</name>
+		<name>Varnish - Request rates</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Request rates</name>
@@ -6614,7 +6614,7 @@
 		</data>
 	</hash_0100243463fb16cd838c7db93cd4f67bfa35d0>
 	<hash_010024b815a84d9f3a494ac4ebd2e9ef733b40>
-		<name>Varnish Stats - Object expunging</name>
+		<name>Varnish - Object expunging</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Object expunging</name>
@@ -6670,7 +6670,7 @@
 		</data>
 	</hash_010024b815a84d9f3a494ac4ebd2e9ef733b40>
 	<hash_01002457348350f63cd4d1ace70df6421526a5>
-		<name>Varnish Stats - Hit rates</name>
+		<name>Varnish - Hit rates</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Hit rates</name>
@@ -6754,7 +6754,7 @@
 		</data>
 	</hash_01002457348350f63cd4d1ace70df6421526a5>
 	<hash_0100244953de12ec4319751cc9cb55aa0db5cf>
-		<name>Varnish Stats - Backend traffic</name>
+		<name>Varnish - Backend traffic</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Backend traffic</name>
@@ -6894,7 +6894,7 @@
 		</data>
 	</hash_0100244953de12ec4319751cc9cb55aa0db5cf>
 	<hash_010024b0f2e3b74840790b5eed22185cc01ac9>
-		<name>Varnish Stats - Thread status</name>
+		<name>Varnish - Thread status</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Thread status</name>
@@ -7006,7 +7006,7 @@
 		</data>
 	</hash_010024b0f2e3b74840790b5eed22185cc01ac9>
 	<hash_010024d43490e2b721cc181f5c874de8c115b6>
-		<name>Varnish Stats - Uptime</name>
+		<name>Varnish - Uptime</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Uptime</name>
@@ -7048,7 +7048,7 @@
 		</data>
 	</hash_010024d43490e2b721cc181f5c874de8c115b6>
 	<hash_010024d1d0fc2201c0eca813d3da6e97d43b3b>
-		<name>Varnish Stats - Shared memory activity</name>
+		<name>Varnish - Shared memory activity</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Shared memory activity</name>
@@ -7118,7 +7118,7 @@
 		</data>
 	</hash_010024d1d0fc2201c0eca813d3da6e97d43b3b>
 	<hash_0100243c6752fb727ad46825e94de5f081b548>
-		<name>Varnish Stats - SHM writes and records</name>
+		<name>Varnish - SHM writes and records</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - SHM writes and records</name>
@@ -7174,7 +7174,7 @@
 		</data>
 	</hash_0100243c6752fb727ad46825e94de5f081b548>
 	<hash_010024636e1b81523d5cd34929cf698ed17c5e>
-		<name>Varnish Stats - Memory allocation requests</name>
+		<name>Varnish - Memory allocation requests</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Memory allocation requests</name>
@@ -7244,7 +7244,7 @@
 		</data>
 	</hash_010024636e1b81523d5cd34929cf698ed17c5e>
 	<hash_0100245a55cbfef7689c33f21d18ccc6842ddf>
-		<name>Varnish Stats - Objects per objecthead</name>
+		<name>Varnish - Objects per objecthead</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Objects per objecthead</name>
@@ -7300,10 +7300,10 @@
 		</data>
 	</hash_0100245a55cbfef7689c33f21d18ccc6842ddf>
 	<hash_010024f8336d07cbbd59071ed06941ccd41964>
-		<name>Varnish Stats - Objects delivered with sendfile versus write</name>
+		<name>Varnish - Objects delivered with sendfile vs write</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - Varnish - Objects delivered with sendfile versus write</name>
+			<name>|host_description| - Varnish - Objects delivered with sendfile vs write</name>
 			<data_input_id>hash_030024359867089c0559bbc7794f0ad9eb8df7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -7356,7 +7356,7 @@
 		</data>
 	</hash_010024f8336d07cbbd59071ed06941ccd41964>
 	<hash_010024373c3c0d37736429baf5596a955a15c6>
-		<name>Varnish Stats - ESI</name>
+		<name>Varnish - ESI</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - ESI</name>
@@ -7412,7 +7412,7 @@
 		</data>
 	</hash_010024373c3c0d37736429baf5596a955a15c6>
 	<hash_01002444a59a621f6b404e75d4207aab34b264>
-		<name>Varnish Stats - Sessions</name>
+		<name>Varnish - Sessions</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Sessions</name>
@@ -7496,7 +7496,7 @@
 		</data>
 	</hash_01002444a59a621f6b404e75d4207aab34b264>
 	<hash_010024ad9fa9f9b39c8db1461da31f2925f56e>
-		<name>Varnish Stats - Session herd</name>
+		<name>Varnish - Session herd</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - Session herd</name>
@@ -7538,7 +7538,7 @@
 		</data>
 	</hash_010024ad9fa9f9b39c8db1461da31f2925f56e>
 	<hash_010024e5411d723d20ca56ee7593e8627cad63>
-		<name>Varnish Stats - VCL and purges</name>
+		<name>Varnish - VCL and purges</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Varnish - VCL and purges</name>
