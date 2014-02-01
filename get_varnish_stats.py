@@ -11,9 +11,10 @@ import re
 import sys
 import getopt
 
-opts, args = getopt.getopt(sys.argv[1:], "h:p:2", ["host=", "port="])
+opts, args = getopt.getopt(sys.argv[1:], "h:p:2d", ["host=", "port="])
 host = '127.0.0.1'
 port = 6082
+debug = False
 version = 3
 for o, v in opts:
 	if o in ("-h", "--host"):
@@ -22,6 +23,8 @@ for o, v in opts:
 		port = int(v)
 	if o in ("-2"):
 		version = 2
+	if o in ("-d"):
+		debug = True
 
 # This serves as template for matching keys.
 # Also all entries present in this table must be present in result
@@ -221,18 +224,23 @@ def get_data():
 	text = varnishstat_tcp()
 	res = parse_input(text)
 	data = map_keys(res)
+
+	# add results for original script
+	hit = float(data['cache_hit'])
+	miss = float(data['cache_miss'])
+	if hit + miss > 0:
+		hitrate = round(hit / (hit + miss) * 100, 1)
+	else:
+		hitrate = 0
+	data['varnish_requests'] = data['client_req']
+	data['varnish_hitrate'] = hitrate
 	return data
 
 data = get_data()
+stats = ''
 for k, v in data.items():
-	print '%s:%s' %(k, v),
+	stats += '%s:%s ' %(k, v)
 
-# print results for original script
-req = data['client_req']
-hit = float(data['cache_hit'])
-miss = float(data['cache_miss'])
-if (hit + miss) != 0:
-    hitrate = round(hit / (hit + miss) * 100, 1)
-else:
-    hitrate = 0
-print 'varnish_requests:%s varnish_hitrate:%s' % (str(req), str(hitrate))
+print stats
+if debug:
+	print >>sys.stderr, "[%s:%s]: %s" % (host, port, stats)
