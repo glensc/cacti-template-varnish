@@ -112,6 +112,19 @@ Samples
 
 ![Thread status](img/Thread status.png)
 
+**Memory Usage**
+![Memory Usage](img/Memory Usage.png)
+
+**Transfer rates**
+![Transfer rates](img/Transfer rates.png)
+
+**Uptime**
+![Uptime](img/Uptime.png)
+
+**VCL and purges**
+![VCL and purges](img/VCL and purges.png)
+
+
 Author
 ------
 
