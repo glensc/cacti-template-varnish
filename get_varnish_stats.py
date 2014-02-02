@@ -243,4 +243,4 @@ for k, v in data.items():
 
 print stats
 if debug:
-	print >>sys.stderr, "varnish[%s:%s]: %s" % (host, port, stats)
+	print >>sys.stderr, "varnish%s[%s:%s]: %s" % (version, host, port, stats)
