@@ -38,91 +38,91 @@ Samples
 
 **Backend Traffic**
 
-![Backend Traffic](img/Backend Traffic.png)
+![Backend Traffic](img/backend-traffic.png)
 
 **Critbit data**
 
-![Critbit data](img/Critbit data.png)
+![Critbit data](img/critbit-data.png)
 
 **Data structure sizes**
 
-![Data structure sizes](img/Data structure sizes.png)
+![Data structure sizes](img/data-structure-sizes.png)
 
 **ESI**
 
-![ESI](img/ESI.png)
+![ESI](img/esi.png)
 
 **Hitrate %**
 
-![Hitrate %](img/Hitrate %25.png)
+![Hitrate %](img/hitrate.png)
 
 **Hit rates**
 
-![Hit rates](img/Hit rates.png)
+![Hit rates](img/hit-rates.png)
 
 **LRU activity**
 
-![LRU activity](img/LRU activity.png)
+![LRU activity](img/lru-activity.png)
 
 **Memory allocation requests**
 
-![Memory allocation requests](img/Memory allocation requests.png)
+![Memory allocation requests](img/memory-allocation-requests.png)
 
 **Number of objects**
 
-![Number of objects](img/Number of objects.png)
+![Number of objects](img/number-of-objects.png)
 
 **Object expunging**
 
-![Object expunging](img/Object expunging.png)
+![Object expunging](img/object-expunging.png)
 
 **Objects delivered with sendfile vs write**
 
-![Objects delivered with sendfile vs write](img/Objects delivered with sendfile vs write.png)
+![Objects delivered with sendfile vs write](img/objects-delivered-with-sendfile-vs-write.png)
 
 **Objects overflowing workspace**
 
-![Objects overflowing workspace](img/Objects overflowing workspace.png)
+![Objects overflowing workspace](img/objects-overflowing-workspace.png)
 
 **Objects per objecthead**
 
-![Objects per objecthead](img/Objects per objecthead.png)
+![Objects per objecthead](img/objects-per-objecthead.png)
 
 **Request rates**
 
-![Request rates](img/Request rates.png)
+![Request rates](img/request-rates.png)
 
 **Session herd**
 
-![Session herd](img/Session herd.png)
+![Session herd](img/session-herd.png)
 
 **Sessions**
 
-![Sessions](img/Sessions.png)
+![Sessions](img/sessions.png)
 
 **Shared memory activity**
 
-![Shared memory activity](img/Shared memory activity.png)
+![Shared memory activity](img/shared-memory-activity.png)
 
 **SHM writes and records**
 
-![SHM writes and records](img/SHM writes and records.png)
+![SHM writes and records](img/shm-writes-and-records.png)
 
 **Thread status**
 
-![Thread status](img/Thread status.png)
+![Thread status](img/thread-status.png)
 
 **Memory Usage**
-![Memory Usage](img/Memory Usage.png)
+![Memory Usage](img/memory-usage.png)
 
 **Transfer rates**
-![Transfer rates](img/Transfer rates.png)
+![Transfer rates](img/transfer-rates.png)
 
 **Uptime**
-![Uptime](img/Uptime.png)
+![Uptime](img/uptime.png)
 
 **VCL and purges**
-![VCL and purges](img/VCL and purges.png)
+![VCL and purges](img/vcl-and-purges.png)
 
 
 Author
