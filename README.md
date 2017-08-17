@@ -113,15 +113,19 @@ Samples
 ![Thread status](img/thread-status.png)
 
 **Memory Usage**
+
 ![Memory Usage](img/memory-usage.png)
 
 **Transfer rates**
+
 ![Transfer rates](img/transfer-rates.png)
 
 **Uptime**
+
 ![Uptime](img/uptime.png)
 
 **VCL and purges**
+
 ![VCL and purges](img/vcl-and-purges.png)
 
 
